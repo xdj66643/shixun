@@ -6,6 +6,12 @@ __pycache__/
 # C extensions
 *.so
 
+# 手动添加 Node 规则
+node_modules/
+npm-debug.log*
+.npm
+.env
+
 # Distribution / packaging
 .Python
 build/

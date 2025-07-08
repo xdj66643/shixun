@@ -1,3 +1,7 @@
+<<<<<<< Updated upstream
+=======
+# import requests
+>>>>>>> Stashed changes
 import os
 import cv2
 import numpy as np
@@ -48,7 +52,13 @@ class FaceRecognitionSystem:
         self.user_dict = {}  # 用户ID到用户名的映射
         self.user_dict_file = os.path.join(data_dir, "user_dict.pkl")
         self.load_user_dict()
+<<<<<<< Updated upstream
         
+=======
+        # # 后端接口配置
+        # self.api_base_url = "http://localhost:8080"  # 根据你的Spring Boot部署地址修改
+
+>>>>>>> Stashed changes
         # 告警设置（示例邮箱配置，需替换为实际信息）
         self.alert_email = "your_email@example.com"
         self.smtp_server = "smtp.example.com"
@@ -281,6 +291,22 @@ class FaceRecognitionSystem:
                     cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
                     cv2.putText(frame, f"{username} ({confidence:.2f})", 
                                (x, y-10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0, 255, 0), 2)
+<<<<<<< Updated upstream
+=======
+                    # # 登录接口调用
+                    # try:
+                    #     login_payload = {
+                    #             "face_id": f"user_{user_id}"
+                    #             }
+                    #     response = requests.post(f"{self.api_base_url}/api/auth/face-login", json=login_payload)
+                    #     if response.status_code == 200:
+                    #         print(f"用户 {username} 登录成功")
+                    #     else:
+                    #         print(f"用户 {username} 登录失败: {response.status_code} - {response.text}")
+                    # except Exception as e:
+                    #     print(f"登录接口调用失败: {str(e)}")
+
+>>>>>>> Stashed changes
                 else:
                     # 非认证用户
                     username = "未知用户"

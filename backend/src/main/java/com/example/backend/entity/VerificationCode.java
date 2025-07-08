@@ -16,6 +16,7 @@ public class VerificationCode {
     @Enumerated(EnumType.STRING)
     private TargetType targetType;  // EMAIL, PHONE
 
+    @Column(name = "target_value")
     private String targetValue;
     private String code;
     private LocalDateTime expiredAt;
@@ -23,6 +24,7 @@ public class VerificationCode {
 
     @CreationTimestamp
     private LocalDateTime createdAt;
+
 
     public enum TargetType {
         EMAIL, PHONE

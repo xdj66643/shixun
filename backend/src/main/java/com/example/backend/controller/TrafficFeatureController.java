@@ -1,5 +1,6 @@
 package com.example.backend.controller;
 
+import com.example.backend.common.ApiResponse;
 import com.example.backend.entity.PassengerHotzone;
 import com.example.backend.entity.TrafficStatistic;
 import com.example.backend.entity.VehicleTrajectory;
@@ -26,17 +27,17 @@ public class TrafficFeatureController {
     }
 
     @GetMapping("/hotzones")
-    public List<PassengerHotzone> getHotzones() {
-        return hotzoneService.getAllHotzones();
+    public ApiResponse<List<PassengerHotzone>> getHotzones() {
+        return ApiResponse.success(hotzoneService.getAllHotzones());
     }
 
     @GetMapping("/statistics")
-    public List<TrafficStatistic> getStatistics() {
-        return statisticService.getAllStatistics();
+    public ApiResponse<List<TrafficStatistic>> getStatistics() {
+        return ApiResponse.success(statisticService.getAllStatistics());
     }
 
     @GetMapping("/trajectories")
-    public List<VehicleTrajectory> getTrajectories() {
-        return trajectoryService.getAllTrajectories();
+    public ApiResponse<List<VehicleTrajectory>> getTrajectories() {
+        return ApiResponse.success(trajectoryService.getAllTrajectories());
     }
 } 

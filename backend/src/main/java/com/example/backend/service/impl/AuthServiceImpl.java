@@ -5,6 +5,8 @@ import com.example.backend.dto.VerificationLoginRequest;
 import com.example.backend.service.AuthService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
+import com.example.backend.common.ApiResponse;
+import java.util.Map;
 
 @Service
 public class AuthServiceImpl implements AuthService {
@@ -27,7 +29,7 @@ public class AuthServiceImpl implements AuthService {
     }
 
     @Override
-    public ResponseEntity<String> loginWithVerificationCode(VerificationLoginRequest request) {
+    public ResponseEntity<ApiResponse<Map<String, Object>>> loginWithVerificationCode(VerificationLoginRequest request) {
         return loginService.loginWithVerificationCode(request);
     }
 

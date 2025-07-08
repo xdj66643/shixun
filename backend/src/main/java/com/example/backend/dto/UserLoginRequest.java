@@ -28,4 +28,22 @@ public class UserLoginRequest {
     public void setPassword(String password) {
         this.password = password;
     }
+
+    private String captchaId;
+
+    private String captcha;
+
+    public String getCaptchaId() {
+        return captchaId;
+    }
+
+    public void setCaptchaId(String captchaId) {
+        this.captchaId = captchaId;
+    }
+    public String getCaptcha() {
+        return captcha;
+    }
+    public void setCaptcha(String captcha) {
+        this.captcha = captcha;
+    }
 }

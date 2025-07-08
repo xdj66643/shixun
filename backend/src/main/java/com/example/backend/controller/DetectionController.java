@@ -1,5 +1,6 @@
 package com.example.backend.controller;
 
+import com.example.backend.common.ApiResponse;
 import com.example.backend.entity.DetectionVideo;
 import com.example.backend.entity.RoadDefect;
 import com.example.backend.service.DetectionVideoService;
@@ -23,17 +24,17 @@ public class DetectionController {
     }
 
     @PostMapping("/upload")
-    public ResponseEntity<String> uploadVideo(@RequestParam("file") MultipartFile file, @RequestParam("userId") Long userId) {
-        return videoService.uploadVideo(file, userId);
+    public ApiResponse<String> uploadVideo(@RequestParam("file") MultipartFile file, @RequestParam("userId") Long userId) {
+        return ApiResponse.success(videoService.uploadVideo(file, userId).getBody());
     }
 
     @GetMapping("/videos")
-    public List<DetectionVideo> getAllVideos() {
-        return videoService.getAllVideos();
+    public ApiResponse<List<DetectionVideo>> getAllVideos() {
+        return ApiResponse.success(videoService.getAllVideos());
     }
 
     @GetMapping("/defects")
-    public List<RoadDefect> getDefectsByVideo(@RequestParam("videoId") Long videoId) {
-        return defectService.getDefectsByVideoId(videoId);
+    public ApiResponse<List<RoadDefect>> getDefectsByVideo(@RequestParam("videoId") Long videoId) {
+        return ApiResponse.success(defectService.getDefectsByVideoId(videoId));
     }
 }

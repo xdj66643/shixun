@@ -1,4 +1,8 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+# import requests
+>>>>>>> Stashed changes
 =======
 # import requests
 >>>>>>> Stashed changes
@@ -53,7 +57,13 @@ class FaceRecognitionSystem:
         self.user_dict_file = os.path.join(data_dir, "user_dict.pkl")
         self.load_user_dict()
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         
+=======
+        # # 后端接口配置
+        # self.api_base_url = "http://localhost:8080"  # 根据你的Spring Boot部署地址修改
+
+>>>>>>> Stashed changes
 =======
         # # 后端接口配置
         # self.api_base_url = "http://localhost:8080"  # 根据你的Spring Boot部署地址修改
@@ -292,7 +302,10 @@ class FaceRecognitionSystem:
                     cv2.putText(frame, f"{username} ({confidence:.2f})", 
                                (x, y-10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0, 255, 0), 2)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
                     # # 登录接口调用
                     # try:
                     #     login_payload = {
@@ -306,6 +319,9 @@ class FaceRecognitionSystem:
                     # except Exception as e:
                     #     print(f"登录接口调用失败: {str(e)}")
 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                 else:
                     # 非认证用户

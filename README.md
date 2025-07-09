@@ -28,7 +28,7 @@ CREATE TABLE users (
     id BIGINT PRIMARY KEY AUTO_INCREMENT,
     username VARCHAR(50) UNIQUE NOT NULL,
     password VARCHAR(100),
-    mail VARCHAR(100) UNIQUE,
+    email VARCHAR(100) UNIQUE,
     phone VARCHAR(20) UNIQUE,
     face_id VARCHAR(100), -- 人脸数据标识（如文件名或人脸编码）
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP,

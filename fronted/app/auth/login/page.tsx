@@ -13,6 +13,7 @@ import { Alert, AlertDescription } from "@/components/ui/alert"
 import { Camera, Mail, User, Lock, Eye, EyeOff, RefreshCw } from "lucide-react"
 import { authService } from "@/lib/api/auth"
 import Link from "next/link"
+import { useEffect, useRef } from "react"
 
 export default function LoginPage() {
   const router = useRouter()
@@ -284,24 +285,8 @@ export default function LoginPage() {
             </TabsContent>
 
             <TabsContent value="face">
-              <div className="space-y-4">
-                <div className="text-center">
-                  <Camera className="mx-auto h-12 w-12 text-gray-400 mb-4" />
-                  <p className="text-sm text-gray-600 mb-4">请上传人脸照片进行识别登录</p>
-                </div>
-                <Input
-                  type="file"
-                  accept="image/*"
-                  onChange={(e) => {
-                    const file = e.target.files?.[0]
-                    if (file) handleFaceLogin(file)
-                  }}
-                  disabled={loading}
-                />
-                <Button className="w-full" disabled={loading}>
-                  {loading ? "识别中..." : "开始人脸识别"}
-                </Button>
-              </div>
+              {/* 新的人脸识别摄像头采集与自动上传功能 */}
+              <FaceLoginCamera />
             </TabsContent>
           </Tabs>
 
@@ -315,6 +300,80 @@ export default function LoginPage() {
           </div>
         </CardContent>
       </Card>
+    </div>
+  )
+}
+
+// 在文件底部添加摄像头组件实现
+function FaceLoginCamera() {
+  const videoRef = useRef<HTMLVideoElement>(null)
+  const canvasRef = useRef<HTMLCanvasElement>(null)
+  const [stream, setStream] = useState<MediaStream | null>(null)
+  const [loading, setLoading] = useState(false)
+  const [error, setError] = useState("")
+
+  useEffect(() => {
+    navigator.mediaDevices.getUserMedia({ video: true })
+      .then(s => {
+        setStream(s)
+        if (videoRef.current) videoRef.current.srcObject = s
+      })
+      .catch(() => setError("无法访问摄像头"))
+    return () => {
+      stream?.getTracks().forEach(track => track.stop())
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
+
+  const handleCaptureAndLogin = async () => {
+    setLoading(true)
+    setError("")
+    const video = videoRef.current
+    const canvas = canvasRef.current
+    if (video && canvas) {
+      canvas.width = video.videoWidth
+      canvas.height = video.videoHeight
+      const ctx = canvas.getContext("2d")
+      ctx?.drawImage(video, 0, 0, canvas.width, canvas.height)
+      canvas.toBlob(async (blob) => {
+        if (blob) {
+          const formData = new FormData()
+          formData.append("faceImage", blob, "face.jpg")
+          try {
+            const res = await fetch("/api/auth/login/face", {
+              method: "POST",
+              body: formData,
+            })
+            const data = await res.json()
+            if (data.code === 0) {
+              localStorage.setItem("auth-token", data.data.token)
+              localStorage.setItem("user-info", JSON.stringify(data.data.user))
+              window.location.href = "/dashboard"
+            } else {
+              setError(data.message || "识别失败")
+            }
+          } catch {
+            setError("识别请求失败")
+          }
+        }
+        setLoading(false)
+      }, "image/jpeg")
+    }
+  }
+
+  return (
+    <div className="flex flex-col items-center space-y-4">
+      <video ref={videoRef} autoPlay playsInline style={{ width: 320, height: 240, borderRadius: 8, background: '#000' }} />
+      <canvas ref={canvasRef} style={{ display: "none" }} />
+      <button
+        type="button"
+        onClick={handleCaptureAndLogin}
+        disabled={loading}
+        className="px-6 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 disabled:opacity-60"
+      >
+        {loading ? "识别中..." : "开始识别"}
+      </button>
+      {error && <div className="text-red-500 text-sm">{error}</div>}
     </div>
   )
 }

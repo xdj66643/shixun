@@ -1,4 +1,6 @@
 # import requests
+import sys
+print(sys.executable)
 import os
 import cv2
 import numpy as np
@@ -58,6 +60,9 @@ class FaceRecognitionSystem:
         self.smtp_port = 587
         self.smtp_username = "your_email@example.com"
         self.smtp_password = "your_password"
+
+        
+
 
     def generate_encryption_key(self):
         """生成AES加密密钥并保存到文件"""
@@ -370,7 +375,7 @@ class FaceRecognitionSystem:
         
         return is_deepfake, confidence
 
-# 使用示例
+#使用示例
 if __name__ == "__main__":
     # 创建data目录并下载Haar级联文件
     if not os.path.exists("data"):
@@ -407,3 +412,57 @@ if __name__ == "__main__":
             
         else:
             print("无效选择，请重试")
+
+from flask import Flask, request, jsonify
+import io
+from PIL import Image
+
+app = Flask(__name__)
+fr_system = FaceRecognitionSystem()
+
+@app.route('/api/recognize', methods=['POST'])
+def recognize_api():
+    if 'faceImage' not in request.files:
+        return jsonify({'success': False, 'code': 400, 'message': 'No file uploaded', 'data': None})
+    file = request.files['faceImage']
+    img_bytes = file.read()
+    img_array = np.frombuffer(img_bytes, np.uint8)
+    img = cv2.imdecode(img_array, cv2.IMREAD_COLOR)
+    if img is None:
+        return jsonify({'success': False, 'code': 400, 'message': 'Invalid image', 'data': None})
+
+    # 灰度化
+    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    if fr_system.face_cascade is None:
+        return jsonify({'success': False, 'code': 500, 'message': 'Face cascade not loaded', 'data': None})
+    faces = fr_system.face_cascade.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=5)
+    if len(faces) == 0:
+        return jsonify({'success': False, 'code': 404, 'message': 'No face detected', 'data': None})
+
+    # 只取第一个人脸
+    (x, y, w, h) = faces[0]
+    face_roi = gray[y:y+h, x:x+w]
+
+    # 加载模型
+    model_path = os.path.join(fr_system.data_dir, "face_model.yml")
+    if not os.path.exists(model_path):
+        return jsonify({'success': False, 'code': 500, 'message': 'Model not trained', 'data': None})
+    if fr_system.recognizer is None:
+        return jsonify({'success': False, 'code': 500, 'message': 'Recognizer not initialized', 'data': None})
+    fr_system.recognizer.read(model_path)
+
+    user_id, confidence = fr_system.recognizer.predict(face_roi)
+    username = fr_system.user_dict.get(user_id, "未知用户")
+    # 你可以根据实际需求调整置信度阈值
+    if confidence < 100:
+        return jsonify({'success': True, 'code': 200, 'message': 'success', 'data': {
+            'user_id': user_id,
+            'username': username,
+            'confidence': float(confidence)
+        }})
+    else:
+        # 可选：触发告警
+        return jsonify({'success': False, 'code': 401, 'message': 'Face not recognized', 'data': None})
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5001)

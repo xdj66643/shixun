@@ -1,128 +1,82 @@
-# shixun
+# 2025软件工程暑期实训
+（readme version1）
+
 大家拼命干活吧
 
 
 
-大家按照这个步骤配置数据库：
+（readme version2）
 
------
+大家按照这个步骤配置数据库：https://pcnr6b5ddex1.feishu.cn/file/BeGJbaLHmoBBbkxv6h8cyRvinHf
+
+
+
+（readme version3）
+
+运行方法：（不包括配置）
+
+#### 第一步：在xxxxxx\smart_road_system\Facerecognition目录下运行
+
+​               **python faces.py**（独立的人脸识别服务（Flask））
+
+​                监听来自后端（Spring Boot）的请求
+
+​                根据指示操作即可，录入人脸并训练模型后，即可按5（退出），但不用关闭命令行（或powershell、anaconda prompt）
+
+
+
+#### 第二步：启动后端
+
+​                其中有几个配置需要根据个人情况修改：
+
+​                在**application.properties**中：
+
+数据库的配置：
 
 ```
-1.找到src/main/resources/application.properties
+spring.datasource.username=实际的用户名（一般都是root）
+spring.datasource.password=实际的密码
+```
 
-将里面的
-spring.datasource.username=root
-spring.datasource.password=123456
+想自己测试的可以用自己的邮箱和授权码（**SMTP**）
 
-改成自己在电脑里装的mysql的的账号和密码
+```
+spring.mail.username=xxxxxxx@qq.com
+spring.mail.password=xxxxxxx
+```
 
-2.建好数据库，随便取什么名字都行，但是模式要统一成
-smart_road_system
 
-3.在终端写以下sql语句建表
-create database smart_road_system;
-use smart_road_system;
 
-/* 一、用户与认证系统模块*/
-CREATE TABLE users (
-    id BIGINT PRIMARY KEY AUTO_INCREMENT,
-    username VARCHAR(50) UNIQUE NOT NULL,
-    password VARCHAR(100),
-    email VARCHAR(100) UNIQUE,
-    phone VARCHAR(20) UNIQUE,
-    face_id VARCHAR(100), -- 人脸数据标识（如文件名或人脸编码）
-    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
-    updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
-);
+#### 第三步：运行前端
 
-CREATE TABLE verification_codes (
-    id BIGINT PRIMARY KEY AUTO_INCREMENT,
-    target_type ENUM('EMAIL', 'PHONE') NOT NULL,
-    target_value VARCHAR(100) NOT NULL,
-    code VARCHAR(10) NOT NULL,
-    expired_at DATETIME NOT NULL,                /*验证码过期时间*/
-    verified BOOLEAN DEFAULT FALSE,              /*表示验证码是否已被使用验证成功*/
-    created_at DATETIME DEFAULT CURRENT_TIMESTAMP/*创建时间，记录发送时间*/
-);
+##### 注册模块：
 
-CREATE TABLE text_captchas (                      /*文字验证码*/
-    id BIGINT PRIMARY KEY AUTO_INCREMENT,
-    captcha_id VARCHAR(50) NOT NULL,
-    correct_sequence TEXT NOT NULL,               /*用户需要点击的文字顺序*/
-    expired_at DATETIME NOT NULL,
-    created_at DATETIME DEFAULT CURRENT_TIMESTAMP
-);
+如果用户名（或手机、邮箱）重复，则注册失败，
 
-CREATE TABLE face_logs (
-    id BIGINT PRIMARY KEY AUTO_INCREMENT,
-    user_id BIGINT,
-    image_path VARCHAR(200),
-    recognized BOOLEAN,
-    reason TEXT,
-    created_at DATETIME DEFAULT CURRENT_TIMESTAMP
-);
+只有三者都不重复，才能注册成功
 
-CREATE TABLE system_logs (
-    id BIGINT PRIMARY KEY AUTO_INCREMENT,
-    level ENUM('INFO', 'WARN', 'ERROR'),
-    message TEXT,
-    created_at DATETIME DEFAULT CURRENT_TIMESTAMP
-);
 
-/*二、路面病害检测模块*/
-CREATE TABLE detection_videos (
-    id BIGINT PRIMARY KEY AUTO_INCREMENT,
-    source_path VARCHAR(200) NOT NULL,
-    upload_user BIGINT,
-    processed BOOLEAN DEFAULT FALSE,
-    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
-    FOREIGN KEY (upload_user) REFERENCES users(id)
-);
 
--- 病害识别记录表
-CREATE TABLE road_defects (
-    id BIGINT PRIMARY KEY AUTO_INCREMENT,
-    video_id BIGINT NOT NULL,
-    defect_type ENUM('裂缝-纵向', '裂缝-横向', '龟裂', '坑洼') NOT NULL,
-    position VARCHAR(100),
-    area FLOAT,
-    confidence FLOAT,
-    image_path VARCHAR(200),
-    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
-    FOREIGN KEY (video_id) REFERENCES detection_videos(id)
-);
+##### 登录模块：
 
-/* 三、城市交通分析模块*/
--- 车辆轨迹点表
-CREATE TABLE vehicle_trajectories (
-    id BIGINT PRIMARY KEY AUTO_INCREMENT,
-    vehicle_id VARCHAR(50) NOT NULL,
-    timestamp DATETIME NOT NULL,
-    longitude DOUBLE NOT NULL,
-    latitude DOUBLE NOT NULL,
-    speed FLOAT,
-    direction FLOAT
-);
+账号密码登录：没什么好说的
 
--- 区域小时级交通统计表
-CREATE TABLE traffic_statistics (
-    id BIGINT PRIMARY KEY AUTO_INCREMENT,
-    region_name VARCHAR(100) NOT NULL,
-    hour INT NOT NULL,
-    vehicle_count INT DEFAULT 0,
-    avg_speed FLOAT,
-    updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
-);
+邮箱验证码登录：由自己测试的邮箱xxxxxxx@qq.com发出邮件，自己注册的邮箱用来接收
 
--- 上客热点区域表
-CREATE TABLE passenger_hotzones (
-    id BIGINT PRIMARY KEY AUTO_INCREMENT,
-    region_name VARCHAR(100) NOT NULL,
-    longitude DOUBLE NOT NULL,
-    latitude DOUBLE NOT NULL,
-    pickup_count INT DEFAULT 0,
-    date DATE NOT NULL
-);
+人脸识别登录：如果前面已经成功录入人脸并训练模型，点击开始识别的按钮后，识别成功就会进入主页面
 
+###### 
+
+现在main分支到了这个阶段，主页面只是摆设，还没什么用
+
+
+
+
+
+
+
+
+
+```
 
 ```

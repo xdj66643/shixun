@@ -25,7 +25,8 @@ public class TextCaptchaServiceImpl implements TextCaptchaService {
     }
 
     public static String randomString(int length) {
-        String chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        String chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
+        + "亲快效斯院查江型眼王按格养易置派层片始却专状育厂京识适属圆包火住调满县局照参红细引听该铁价严龙飞";
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < length; i++) {
             int idx = (int) (Math.random() * chars.length());
@@ -46,7 +47,7 @@ public class TextCaptchaServiceImpl implements TextCaptchaService {
         g.setColor(Color.WHITE);
         g.fillRect(0, 0, width, height);
         g.setColor(Color.BLACK);
-        g.setFont(new Font("Arial", Font.BOLD, 24));
+        g.setFont(new Font("Microsoft YaHei", Font.BOLD, 24));
         g.drawString(correctSequence, 20, 28);
         g.dispose();
 

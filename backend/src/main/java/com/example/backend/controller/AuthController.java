@@ -72,21 +72,28 @@ public class AuthController {
     // 用户名密码登录接口
     @PostMapping("/login")
     public ApiResponse<Map<String, Object>> login(@Valid @RequestBody UserLoginRequest request) {
-        // 1. 校验验证码
+        // 1. 校验用户名是否存在
+        Optional<User> userOpt = userRepository.findByUsername(request.getUsername());
+        if (!userOpt.isPresent()) {
+            return ApiResponse.error(401, "用户不存在");
+        }
+    
+        // 2. 校验验证码
         ResponseEntity<String> captchaResp = textCaptchaService.verifyCaptcha(request.getCaptchaId(), request.getCaptcha());
         if (!captchaResp.getStatusCode().is2xxSuccessful() || !"验证通过".equals(captchaResp.getBody())) {
-        return ApiResponse.error(400, "验证码错误");
-}
-    
-        // 2. 校验用户名和密码
-        Optional<User> userOpt = userRepository.findByUsername(request.getUsername());
-        if (userOpt.isPresent() && userOpt.get().getPassword().equals(request.getPassword())) {
-            Map<String, Object> data = new HashMap<>();
-            data.put("token", "your-jwt-token"); // 这里应生成真实token
-            data.put("user", userOpt.get());
-            return ApiResponse.success(data);
+            return ApiResponse.error(400, "验证码错误");
         }
-        return ApiResponse.error(401, "用户名或密码错误");
+    
+        // 3. 校验密码
+        if (!userOpt.get().getPassword().equals(request.getPassword())) {
+            return ApiResponse.error(401, "密码错误");
+        }
+    
+        // 4. 登录成功
+        Map<String, Object> data = new HashMap<>();
+        data.put("token", "your-jwt-token"); // 这里应生成真实token
+        data.put("user", userOpt.get());
+        return ApiResponse.success(data);
     }
     
     @PostMapping("/send")

@@ -1,18 +1,26 @@
 package com.example.backend.controller;
 
+import com.example.backend.common.MultipartInputStreamFileResource;
 import com.example.backend.dto.VerificationCodeRequest;
 import com.example.backend.dto.VerificationLoginRequest;
 import com.example.backend.entity.VerificationCode;
 import com.example.backend.repository.VerificationCodeRepository;
 import com.example.backend.service.AuthService;
+import org.springframework.http.HttpEntity;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
+import org.springframework.util.LinkedMultiValueMap;
+import org.springframework.util.MultiValueMap;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.client.RestTemplate;
 import org.springframework.web.multipart.MultipartFile;
 import com.example.backend.dto.UserRegisterRequest;
 import com.example.backend.dto.UserLoginRequest;
 import com.example.backend.entity.User;
 import com.example.backend.repository.UserRepository;
 import com.example.backend.service.impl.LoginService;
+
 
 import java.time.LocalDateTime;
 import java.util.HashMap;
@@ -119,9 +127,42 @@ public class AuthController {
     }
 
     @PostMapping("/login/face")
-    public ApiResponse<String> loginWithFace(@RequestParam("faceImage") MultipartFile faceImage) {
-        // 实际项目应提取faceId，这里模拟
-        String fakeFaceId = "face123.jpg";
-        return ApiResponse.success(authService.loginWithFace(fakeFaceId).getBody());
+    public ApiResponse<Map<String, Object>> loginWithFace(@RequestParam("faceImage") MultipartFile faceImage) {
+      try {
+        // 1. 转发图片到 Python 服务
+        String pythonUrl = "http://localhost:5001/api/recognize";
+        HttpHeaders headers = new HttpHeaders();
+        headers.setContentType(MediaType.MULTIPART_FORM_DATA);
+    
+        MultiValueMap<String, Object> body = new LinkedMultiValueMap<>();
+        body.add("faceImage", new MultipartInputStreamFileResource(faceImage.getInputStream(), faceImage.getOriginalFilename()));
+    
+        HttpEntity<MultiValueMap<String, Object>> requestEntity = new HttpEntity<>(body, headers);
+        RestTemplate restTemplate = new RestTemplate();
+        ResponseEntity<Map> response = restTemplate.postForEntity(pythonUrl, requestEntity, Map.class);
+    
+        Map<String, Object> result = response.getBody();
+        if (result != null && Boolean.TRUE.equals(result.get("success"))) {
+            Map<String, Object> dataMap = (Map<String, Object>) result.get("data");
+            if (dataMap != null) {
+                String username = (String) dataMap.get("username");
+                Optional<User> userOpt = userRepository.findByUsername(username);
+                if (userOpt.isPresent()) {
+                    Map<String, Object> data = new HashMap<>();
+                    data.put("token", "your-jwt-token"); // 生成真实token
+                    data.put("user", userOpt.get());
+                    return ApiResponse.success(data);
+                } else {
+                    return ApiResponse.error(404, "未找到用户");
+                }
+            } else {
+                return ApiResponse.error(401, "人脸识别失败");
+            }
+        } else {
+            return ApiResponse.error(401, "人脸识别失败");
+        }
+      } catch (Exception e) {
+        return ApiResponse.error(500, "服务异常: " + e.getMessage());
+      }
     }
 }

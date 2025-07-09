@@ -39,27 +39,27 @@ export default function RegisterPage() {
       return
     }
 
-    try {
-      const response = await authService.register({
-        username,
-        email,
-        phone,
-        password,
-      })
+      try {
+          const response = await authService.register({
+              username,
+              email,
+              phone,
+              password,
+          })
 
-      if (response.success) {
-        setSuccess("注册成功！请登录")
-        setTimeout(() => {
-          router.push("/auth/login")
-        }, 2000)
-      } else {
-        setError(response.message || "注册失败")
+          if (response.code === 0) {
+              setSuccess("注册成功！请登录")
+              setTimeout(() => {
+                  router.push("/auth/login")
+              }, 2000)
+          } else {
+              setError(response.message || "注册失败")
+          }
+      } catch (err) {
+          setError("注册失败，请重试")
+      } finally {
+          setLoading(false)
       }
-    } catch (err) {
-      setError("注册失败，请重试")
-    } finally {
-      setLoading(false)
-    }
   }
 
   return (

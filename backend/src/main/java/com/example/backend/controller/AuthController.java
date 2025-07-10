@@ -20,6 +20,7 @@ import com.example.backend.dto.UserLoginRequest;
 import com.example.backend.entity.User;
 import com.example.backend.repository.UserRepository;
 import com.example.backend.service.impl.LoginService;
+import com.example.backend.service.MailService;
 
 
 import java.time.LocalDateTime;
@@ -32,7 +33,7 @@ import com.example.backend.service.TextCaptchaService;
 
 @RestController
 @RequestMapping("/api/auth")
-public class AuthController {
+public class    AuthController {
 
     private final VerificationCodeRepository verificationCodeRepository;
 
@@ -44,13 +45,16 @@ public class AuthController {
 
     private final LoginService loginService;
 
+    private final MailService mailService;
 
-    public AuthController(AuthService authService, UserRepository userRepository, TextCaptchaService textCaptchaService, VerificationCodeRepository verificationCodeRepository, LoginService loginService) {
+
+    public AuthController(AuthService authService, UserRepository userRepository, TextCaptchaService textCaptchaService, VerificationCodeRepository verificationCodeRepository, LoginService loginService, MailService mailService) {
         this.authService = authService;
         this.userRepository = userRepository;
         this.textCaptchaService = textCaptchaService;
         this.verificationCodeRepository = verificationCodeRepository;
         this.loginService = loginService;
+        this.mailService = mailService;
     }
 
     // 注册接口
@@ -98,34 +102,29 @@ public class AuthController {
     
     @PostMapping("/send")
     public ApiResponse<String> sendCode(@Valid @RequestBody VerificationCodeRequest request) {
-        String targetValue = request.getContact();
-        // targetValue 不能为空
-        if (targetValue == null || targetValue.isEmpty()) {
-            return ApiResponse.error(400, "联系方式不能为空");
+        String email = request.getContact();
+        // 只允许邮箱
+        if (email == null || email.isEmpty() || !email.contains("@")) {
+            return ApiResponse.error(400, "请输入有效的邮箱地址");
         }
         // 查找用户
-        Optional<User> userOpt = userRepository.findByEmail(targetValue);
-        if (!userOpt.isPresent()) {
-            userOpt = userRepository.findByPhone(targetValue);
-        }
+        Optional<User> userOpt = userRepository.findByEmail(email);
         if (!userOpt.isPresent()) {
             return ApiResponse.error(404, "用户不存在");
         }
-        // 判断类型
-        VerificationCode.TargetType type = targetValue.contains("@") ? VerificationCode.TargetType.EMAIL : VerificationCode.TargetType.PHONE;
         // 生成验证码
         String code = String.valueOf((int)((Math.random() * 9 + 1) * 100000));
-        System.out.println("【调试用】发送验证码到 " + targetValue + "，验证码：" + code);
+        // 发送邮件
+        mailService.sendCode(email, code);
         // 保存到数据库
         VerificationCode verificationCode = new VerificationCode();
-        verificationCode.setTargetValue(targetValue);
+        verificationCode.setTargetValue(email);
         verificationCode.setCode(code);
-        verificationCode.setTargetType(type);
+        verificationCode.setTargetType(VerificationCode.TargetType.EMAIL);
         verificationCode.setCreatedAt(java.time.LocalDateTime.now());
-        // TODO: 设置 expiredAt 字段
         verificationCode.setExpiredAt(java.time.LocalDateTime.now().plusMinutes(5));
         verificationCodeRepository.save(verificationCode);
-        return ApiResponse.success("验证码已发送");
+        return ApiResponse.success("验证码已发送到邮箱");
     }
 
     @PostMapping("/login/code")
@@ -173,3 +172,4 @@ public class AuthController {
       }
     }
 }
+

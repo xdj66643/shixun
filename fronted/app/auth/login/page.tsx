@@ -26,7 +26,7 @@ export default function LoginPage() {
           <Tabs defaultValue="password" className="w-full">
             <TabsList className="grid w-full grid-cols-3">
               <TabsTrigger value="password">密码登录</TabsTrigger>
-              <TabsTrigger value="code">验证码</TabsTrigger>
+              <TabsTrigger value="code">邮箱登录</TabsTrigger>
               <TabsTrigger value="face">人脸识别</TabsTrigger>
             </TabsList>
             <TabsContent value="password">
@@ -254,14 +254,14 @@ function CodeLoginForm({ onSuccess }: { onSuccess: () => void }) {
         </Alert>
       )}
       <div className="space-y-2">
-        <Label htmlFor="contact">邮箱/手机号</Label>
+        <Label htmlFor="contact">邮箱</Label>
         <div className="relative">
           <Mail className="absolute left-3 top-3 h-4 w-4 text-gray-400" />
           <Input
             id="contact"
             name="contact"
             type="text"
-            placeholder="请输入邮箱或手机号"
+            placeholder="请输入邮箱"
             className="pl-10"
             required
             value={contact}

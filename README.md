@@ -9,6 +9,7 @@
 
 大家按照这个步骤配置数据库：https://pcnr6b5ddex1.feishu.cn/file/BeGJbaLHmoBBbkxv6h8cyRvinHf
 
+项目名修改：shixun->smart_road_system
 
 
 （readme version3）

@@ -1,12 +1,29 @@
 "use client"
 
 import { useEffect, useState } from "react"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Activity, Camera, MapPin, TrendingUp, Users, AlertTriangle, Upload, BarChart3 } from "lucide-react"
+import { Button } from "@/components/ui/button"
+import {
+  Activity,
+  Camera,
+  MapPin,
+  TrendingUp,
+  AlertTriangle,
+  Upload,
+  BarChart3,
+  ArrowUpRight,
+  CheckCircle,
+  Clock,
+  Zap,
+  Shield,
+  ChevronRight,
+  Calendar,
+  Users,
+  Eye,
+} from "lucide-react"
 import Link from "next/link"
-import { detectionService } from "@/lib/api/detection"
-import { trafficService } from "@/lib/api/traffic"
+import { cn } from "@/lib/utils"
 
 interface DashboardStats {
   totalVideos: number
@@ -25,216 +42,308 @@ export default function DashboardPage() {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    loadDashboardData()
+    // 模拟API调用
+    setTimeout(() => {
+      setStats({
+        totalVideos: 156,
+        totalDefects: 23,
+        totalHotzones: 8,
+        totalTrajectories: 1247,
+      })
+      setLoading(false)
+    }, 800)
   }, [])
 
-  const loadDashboardData = async () => {
-    try {
-      const [videos, hotzones, trajectories] = await Promise.all([
-        detectionService.getVideos(),
-        trafficService.getHotzones(),
-        trafficService.getTrajectories(),
-      ])
-
-      // 计算总病害数
-      let totalDefects = 0
-      for (const video of videos) {
-        const defects = await detectionService.getDefects(video.id)
-        totalDefects += defects.length
-      }
-
-      setStats({
-        totalVideos: videos.length,
-        totalDefects,
-        totalHotzones: hotzones.length,
-        totalTrajectories: trajectories.length,
-      })
-    } catch (error) {
-      console.error("加载仪表板数据失败:", error)
-    } finally {
-      setLoading(false)
-    }
-  }
+  const statsCards = [
+    {
+      title: "检测视频",
+      value: stats.totalVideos,
+      description: "已上传视频总数",
+      icon: Camera,
+      color: "text-blue-600",
+      bgColor: "bg-blue-50",
+      borderColor: "border-blue-200",
+      trend: "+12%",
+      trendUp: true,
+    },
+    {
+      title: "发现病害",
+      value: stats.totalDefects,
+      description: "检测到的病害总数",
+      icon: AlertTriangle,
+      color: "text-red-600",
+      bgColor: "bg-red-50",
+      borderColor: "border-red-200",
+      trend: "-8%",
+      trendUp: false,
+    },
+    {
+      title: "交通热点",
+      value: stats.totalHotzones,
+      description: "监控热点区域",
+      icon: MapPin,
+      color: "text-orange-600",
+      bgColor: "bg-orange-50",
+      borderColor: "border-orange-200",
+      trend: "+3%",
+      trendUp: true,
+    },
+    {
+      title: "车辆轨迹",
+      value: stats.totalTrajectories,
+      description: "追踪轨迹数量",
+      icon: TrendingUp,
+      color: "text-green-600",
+      bgColor: "bg-green-50",
+      borderColor: "border-green-200",
+      trend: "+24%",
+      trendUp: true,
+    },
+  ]
 
   const quickActions = [
     {
       title: "上传检测视频",
-      description: "上传道路视频进行病害检测",
+      description: "上传道路视频进行AI病害检测分析",
       icon: Upload,
       href: "/detection/upload",
-      color: "bg-blue-500",
+      iconBg: "bg-blue-500",
     },
     {
       title: "查看检测结果",
-      description: "查看已完成的病害检测结果",
+      description: "查看已完成的病害检测分析报告",
       icon: Camera,
       href: "/detection/results",
-      color: "bg-green-500",
+      iconBg: "bg-green-500",
     },
     {
       title: "交通热点分析",
-      description: "查看城市交通热点区域",
+      description: "实时监控城市交通热点区域状况",
       icon: MapPin,
       href: "/traffic/hotzones",
-      color: "bg-orange-500",
+      iconBg: "bg-orange-500",
     },
     {
       title: "数据可视化",
-      description: "查看交通统计和轨迹分析",
+      description: "查看交通统计图表和轨迹分析",
       icon: BarChart3,
       href: "/traffic/visualization",
-      color: "bg-purple-500",
+      iconBg: "bg-purple-500",
+    },
+  ]
+
+  const systemStatus = [
+    { name: "AI检测服务", status: "正常", icon: CheckCircle, color: "text-green-600" },
+    { name: "数据库连接", status: "正常", icon: CheckCircle, color: "text-green-600" },
+    { name: "视频处理", status: "正常", icon: CheckCircle, color: "text-green-600" },
+    { name: "数据同步", status: "同步中", icon: Clock, color: "text-yellow-600" },
+  ]
+
+  const recentActivities = [
+    {
+      title: "新视频上传完成",
+      description: "道路检测视频 #156 处理完成",
+      time: "2分钟前",
+      icon: Activity,
+      color: "text-blue-600",
+    },
+    {
+      title: "检测到路面病害",
+      description: "在视频 #154 中发现3处路面裂缝",
+      time: "5分钟前",
+      icon: AlertTriangle,
+      color: "text-red-600",
+    },
+    {
+      title: "系统性能优化",
+      description: "AI模型推理速度提升15%",
+      time: "1小时前",
+      icon: Zap,
+      color: "text-yellow-600",
+    },
+    {
+      title: "安全检查完成",
+      description: "系统安全扫描未发现异常",
+      time: "2小时前",
+      icon: Shield,
+      color: "text-green-600",
     },
   ]
 
   if (loading) {
     return (
-      <div className="flex items-center justify-center min-h-screen">
+      <div className="flex items-center justify-center min-h-[40vh]">
         <div className="text-center">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto mb-4"></div>
-          <p className="text-gray-600">加载中...</p>
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-indigo-600 mx-auto mb-4"></div>
+          <p className="text-slate-600 font-medium">加载仪表板数据...</p>
         </div>
       </div>
     )
   }
 
   return (
-    <div className="space-y-6">
-      {/* 页面标题 */}
-      <div>
-        <h1 className="text-3xl font-bold text-gray-900">智慧道路系统仪表板</h1>
-        <p className="text-gray-600 mt-2">实时监控道路状况和交通数据</p>
+    <div className="space-y-4 mt-0 pt-0">
+      {/* 顶部信息栏 */}
+      <div className="flex flex-wrap items-center gap-4 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl p-3 border border-blue-100">
+        <div className="flex items-center space-x-2">
+          <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
+          <span className="text-sm font-medium text-slate-700">系统运行正常</span>
+        </div>
+        <div className="flex items-center space-x-2 text-sm text-slate-600">
+          <Calendar className="w-4 h-4" />
+          <span>
+            {new Date().toLocaleDateString("zh-CN", {
+              year: "numeric",
+              month: "long",
+              day: "numeric",
+              weekday: "long",
+            })}
+          </span>
+        </div>
+        <div className="flex items-center space-x-2 text-sm text-slate-600">
+          <Users className="w-4 h-4" />
+          <span>在线用户: 24</span>
+        </div>
+        <div className="ml-auto">
+          <Badge variant="outline" className="bg-white">
+            <Eye className="w-3 h-3 mr-1" />
+            实时监控
+          </Badge>
+        </div>
+      </div>
+
+      {/* 仪表板概览 */}
+      <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-2">
+        <div>
+          <h1 className="text-2xl font-bold text-slate-900">仪表板概览</h1>
+          <p className="text-slate-600 text-sm mt-1">实时监控道路状况和交通数据分析</p>
+        </div>
+        <Button variant="outline" size="sm">
+          <ArrowUpRight className="w-4 h-4 mr-1" />
+          查看报告
+        </Button>
       </div>
 
       {/* 统计卡片 */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-        <Card>
-          <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-            <CardTitle className="text-sm font-medium">检测视频</CardTitle>
-            <Camera className="h-4 w-4 text-muted-foreground" />
-          </CardHeader>
-          <CardContent>
-            <div className="text-2xl font-bold">{stats.totalVideos}</div>
-            <p className="text-xs text-muted-foreground">已上传视频总数</p>
-          </CardContent>
-        </Card>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        {statsCards.map((card, index) => (
+          <Card key={index} className={cn("border-0 shadow-sm hover:shadow-md transition-all duration-200", card.borderColor)}>
+            <CardContent className="p-4">
+              <div className="flex items-center justify-between">
+                <div className="space-y-1">
+                  <p className="text-xs font-medium text-slate-600 uppercase tracking-wide">{card.title}</p>
+                  <p className="text-2xl font-bold text-slate-900">{card.value.toLocaleString()}</p>
+                  <div className="flex items-center space-x-2">
+                    <span className={cn("text-xs font-medium px-2 py-0.5 rounded-full", card.trendUp ? "bg-green-100 text-green-700" : "bg-red-100 text-red-700")}>{card.trend}</span>
+                    <span className="text-xs text-slate-500">{card.description}</span>
+                  </div>
+                </div>
+                <div className={cn("p-2.5 rounded-lg", card.bgColor)}>
+                  <card.icon className={cn("h-5 w-5", card.color)} />
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+        ))}
+      </div>
 
-        <Card>
-          <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-            <CardTitle className="text-sm font-medium">发现病害</CardTitle>
-            <AlertTriangle className="h-4 w-4 text-muted-foreground" />
+      {/* 快速操作和系统状态 */}
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        {/* 快速操作 */}
+        <div className="lg:col-span-2">
+          <Card className="border-0 shadow-sm">
+            <CardHeader className="pb-3">
+              <div className="flex items-center justify-between">
+                <div>
+                  <CardTitle className="text-lg">快速操作</CardTitle>
+                  <CardDescription className="text-sm">选择您要执行的常用操作</CardDescription>
+                </div>
+                <Button variant="ghost" size="sm" className="text-xs">
+                  查看全部
+                  <ChevronRight className="ml-1 h-3 w-3" />
+                </Button>
+              </div>
+            </CardHeader>
+            <CardContent>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                {quickActions.map((action, index) => (
+                  <Link key={index} href={action.href}>
+                    <Card className="border-0 bg-gradient-to-br from-slate-50 to-white hover:shadow-md hover:scale-[1.02] transition-all duration-200 cursor-pointer group">
+                      <CardContent className="p-4">
+                        <div className="flex items-center space-x-3">
+                          <div className={cn("w-10 h-10 rounded-lg flex items-center justify-center shadow-sm group-hover:shadow-md transition-shadow", action.iconBg)}>
+                            <action.icon className="h-5 w-5 text-white" />
+                          </div>
+                          <div className="flex-1 min-w-0">
+                            <h3 className="font-medium text-slate-900 group-hover:text-indigo-600 transition-colors text-sm">{action.title}</h3>
+                            <p className="text-xs text-slate-600 mt-0.5 line-clamp-2">{action.description}</p>
+                          </div>
+                          <ChevronRight className="w-4 h-4 text-slate-400 group-hover:text-indigo-600 transition-colors" />
+                        </div>
+                      </CardContent>
+                    </Card>
+                  </Link>
+                ))}
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+        {/* 系统状态 */}
+        <Card className="border-0 shadow-sm">
+          <CardHeader className="pb-3">
+            <CardTitle className="flex items-center space-x-2 text-lg">
+              <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
+              <span>系统状态</span>
+            </CardTitle>
+            <CardDescription className="text-sm">各服务模块运行状态</CardDescription>
           </CardHeader>
-          <CardContent>
-            <div className="text-2xl font-bold text-red-600">{stats.totalDefects}</div>
-            <p className="text-xs text-muted-foreground">检测到的病害总数</p>
-          </CardContent>
-        </Card>
-
-        <Card>
-          <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-            <CardTitle className="text-sm font-medium">交通热点</CardTitle>
-            <MapPin className="h-4 w-4 text-muted-foreground" />
-          </CardHeader>
-          <CardContent>
-            <div className="text-2xl font-bold">{stats.totalHotzones}</div>
-            <p className="text-xs text-muted-foreground">监控热点区域</p>
-          </CardContent>
-        </Card>
-
-        <Card>
-          <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-            <CardTitle className="text-sm font-medium">车辆轨迹</CardTitle>
-            <TrendingUp className="h-4 w-4 text-muted-foreground" />
-          </CardHeader>
-          <CardContent>
-            <div className="text-2xl font-bold">{stats.totalTrajectories}</div>
-            <p className="text-xs text-muted-foreground">追踪轨迹数量</p>
+          <CardContent className="space-y-3">
+            {systemStatus.map((item, index) => (
+              <div key={index} className="flex items-center justify-between p-2.5 rounded-lg bg-slate-50 hover:bg-slate-100 transition-colors">
+                <div className="flex items-center space-x-2.5">
+                  <item.icon className={cn("h-4 w-4", item.color)} />
+                  <span className="font-medium text-slate-900 text-sm">{item.name}</span>
+                </div>
+                <Badge variant={item.status === "正常" ? "default" : "secondary"} className="text-xs">{item.status}</Badge>
+              </div>
+            ))}
           </CardContent>
         </Card>
       </div>
 
-      {/* 快速操作 */}
-      <Card>
-        <CardHeader>
-          <CardTitle>快速操作</CardTitle>
-          <CardDescription>选择您要执行的操作</CardDescription>
+      {/* 最近活动 */}
+      <Card className="border-0 shadow-sm">
+        <CardHeader className="pb-3">
+          <div className="flex items-center justify-between">
+            <div>
+              <CardTitle className="text-lg">最近活动</CardTitle>
+              <CardDescription className="text-sm">系统最新动态和重要事件</CardDescription>
+            </div>
+            <Button variant="ghost" size="sm" className="text-xs">
+              查看全部
+              <ChevronRight className="ml-1 h-3 w-3" />
+            </Button>
+          </div>
         </CardHeader>
         <CardContent>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-            {quickActions.map((action, index) => (
-              <Link key={index} href={action.href}>
-                <Card className="hover:shadow-md transition-shadow cursor-pointer">
-                  <CardContent className="p-6">
-                    <div className={`w-12 h-12 ${action.color} rounded-lg flex items-center justify-center mb-4`}>
-                      <action.icon className="h-6 w-6 text-white" />
-                    </div>
-                    <h3 className="font-semibold mb-2">{action.title}</h3>
-                    <p className="text-sm text-gray-600">{action.description}</p>
-                  </CardContent>
-                </Card>
-              </Link>
+            {recentActivities.map((activity, index) => (
+              <div key={index} className="flex items-start space-x-3 p-3 rounded-lg hover:bg-slate-50 transition-colors border border-slate-100">
+                <div className="flex-shrink-0">
+                  <div className="w-8 h-8 bg-slate-100 rounded-full flex items-center justify-center">
+                    <activity.icon className={cn("h-4 w-4", activity.color)} />
+                  </div>
+                </div>
+                <div className="flex-1 min-w-0">
+                  <p className="font-medium text-slate-900 text-sm">{activity.title}</p>
+                  <p className="text-xs text-slate-600 mt-1 line-clamp-2">{activity.description}</p>
+                  <p className="text-xs text-slate-400 mt-2">{activity.time}</p>
+                </div>
+              </div>
             ))}
           </div>
         </CardContent>
       </Card>
-
-      {/* 系统状态 */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-        <Card>
-          <CardHeader>
-            <CardTitle>系统状态</CardTitle>
-          </CardHeader>
-          <CardContent className="space-y-4">
-            <div className="flex items-center justify-between">
-              <span className="text-sm">检测服务</span>
-              <Badge variant="default">正常运行</Badge>
-            </div>
-            <div className="flex items-center justify-between">
-              <span className="text-sm">数据库连接</span>
-              <Badge variant="default">正常</Badge>
-            </div>
-            <div className="flex items-center justify-between">
-              <span className="text-sm">人脸识别服务</span>
-              <Badge variant="default">正常</Badge>
-            </div>
-            <div className="flex items-center justify-between">
-              <span className="text-sm">交通数据同步</span>
-              <Badge variant="secondary">同步中</Badge>
-            </div>
-          </CardContent>
-        </Card>
-
-        <Card>
-          <CardHeader>
-            <CardTitle>最近活动</CardTitle>
-          </CardHeader>
-          <CardContent>
-            <div className="space-y-4">
-              <div className="flex items-center space-x-3">
-                <Activity className="h-4 w-4 text-blue-500" />
-                <div className="flex-1">
-                  <p className="text-sm">新视频上传完成</p>
-                  <p className="text-xs text-gray-500">2分钟前</p>
-                </div>
-              </div>
-              <div className="flex items-center space-x-3">
-                <AlertTriangle className="h-4 w-4 text-red-500" />
-                <div className="flex-1">
-                  <p className="text-sm">检测到3处路面病害</p>
-                  <p className="text-xs text-gray-500">5分钟前</p>
-                </div>
-              </div>
-              <div className="flex items-center space-x-3">
-                <Users className="h-4 w-4 text-green-500" />
-                <div className="flex-1">
-                  <p className="text-sm">用户登录成功</p>
-                  <p className="text-xs text-gray-500">10分钟前</p>
-                </div>
-              </div>
-            </div>
-          </CardContent>
-        </Card>
-      </div>
     </div>
   )
 }

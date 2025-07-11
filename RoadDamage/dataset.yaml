@@ -1,0 +1,4 @@
+train: D:\pycharm\RoadDamage\dataset\train\images  # 训练集图像路径（根据实际路径修改）
+val: D:\pycharm\RoadDamage\dataset\val\images      # 验证集图像路径
+nc: 4                                      # 类别数：4类病害
+names: ['纵向裂缝', '横向裂缝', '龟裂', '坑洼']  # 类别名称

@@ -16,15 +16,18 @@ interface DetectionVideo {
   defectCount: number
   duration: number
   size: number
+  sourcePath?: string // Added sourcePath for compatibility
 }
 
 interface Defect {
   id: string
-  type: string
+  defect_type: string
   severity: "low" | "medium" | "high"
-  location: string
-  timestamp: number
+  position: string
   confidence: number
+  area?: number
+  image_path?: string
+  video_path?: string
 }
 
 export default function DetectionResultsPage() {
@@ -90,7 +93,7 @@ export default function DetectionResultsPage() {
   }
 
   const formatFileSize = (bytes: number) => {
-    if (bytes === 0) return "0 Bytes"
+    if (!bytes || isNaN(bytes)) return "未知"
     const k = 1024
     const sizes = ["Bytes", "KB", "MB", "GB"]
     const i = Math.floor(Math.log(bytes) / Math.log(k))
@@ -98,12 +101,15 @@ export default function DetectionResultsPage() {
   }
 
   const formatDuration = (seconds: number) => {
+    if (!seconds || isNaN(seconds)) return "未知"
     const mins = Math.floor(seconds / 60)
     const secs = seconds % 60
     return `${mins}:${secs.toString().padStart(2, "0")}`
   }
 
-  const filteredVideos = videos.filter((video) => video.filename.toLowerCase().includes(searchTerm.toLowerCase()))
+  const filteredVideos = videos.filter(
+    (video) => ((video.filename || video.sourcePath || "") as string).toLowerCase().includes(searchTerm.toLowerCase())
+  )
 
   if (loading) {
     return (
@@ -158,7 +164,7 @@ export default function DetectionResultsPage() {
                             <Video className="w-5 h-5 text-blue-600" />
                           </div>
                           <div className="flex-1 min-w-0">
-                            <p className="font-medium text-sm truncate">{video.filename}</p>
+                            <p className="font-medium text-sm truncate">{video.filename || video.sourcePath || "未知文件名"}</p>
                             <div className="flex items-center space-x-2 mt-1">
                               <Badge className={getStatusColor(video.status)}>
                                 {video.status === "completed"
@@ -195,7 +201,9 @@ export default function DetectionResultsPage() {
                   <div className="flex items-center justify-between">
                     <div>
                       <CardTitle>{selectedVideo.filename}</CardTitle>
-                      <CardDescription>上传时间: {new Date(selectedVideo.uploadTime).toLocaleString()}</CardDescription>
+                      <CardDescription>
+                        上传时间: {selectedVideo?.uploadTime ? new Date(selectedVideo.uploadTime).toLocaleString() : "未知"}
+                      </CardDescription>
                     </div>
                     <div className="flex space-x-2">
                       <Button variant="outline" size="sm">
@@ -212,15 +220,15 @@ export default function DetectionResultsPage() {
                 <CardContent>
                   <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                     <div className="text-center">
-                      <p className="text-2xl font-bold text-red-600">{selectedVideo.defectCount}</p>
+                      <p className="text-2xl font-bold text-red-600">{selectedVideo?.defectCount ?? 0}</p>
                       <p className="text-sm text-gray-600">发现病害</p>
                     </div>
                     <div className="text-center">
-                      <p className="text-2xl font-bold">{formatDuration(selectedVideo.duration)}</p>
+                      <p className="text-2xl font-bold">{formatDuration(selectedVideo?.duration)}</p>
                       <p className="text-sm text-gray-600">视频时长</p>
                     </div>
                     <div className="text-center">
-                      <p className="text-2xl font-bold">{formatFileSize(selectedVideo.size)}</p>
+                      <p className="text-2xl font-bold">{formatFileSize(selectedVideo?.size)}</p>
                       <p className="text-sm text-gray-600">文件大小</p>
                     </div>
                     <div className="text-center">
@@ -254,15 +262,11 @@ export default function DetectionResultsPage() {
                                   <AlertTriangle className="w-5 h-5 text-red-600" />
                                 </div>
                                 <div>
-                                  <h4 className="font-medium">{defect.type}</h4>
+                                  <h4 className="font-medium">{(defect as any).defect_type || (defect as any).type || (defect as any).defectType || "未知"}</h4>
                                   <div className="flex items-center space-x-4 mt-1 text-sm text-gray-600">
                                     <div className="flex items-center">
-                                      <Calendar className="w-4 h-4 mr-1" />
-                                      {formatDuration(defect.timestamp)}
-                                    </div>
-                                    <div className="flex items-center">
                                       <MapPin className="w-4 h-4 mr-1" />
-                                      {defect.location}
+                                      {defect.position || "未知"}
                                     </div>
                                   </div>
                                   <p className="text-sm text-gray-600 mt-1">

@@ -20,6 +20,8 @@ export default function VideoUploadPage() {
   const [uploadProgress, setUploadProgress] = useState(0)
   const [error, setError] = useState("")
   const [success, setSuccess] = useState("")
+  // 拖拽高亮状态
+  const [dragActive, setDragActive] = useState(false)
 
   const handleFileSelect = (e: React.ChangeEvent<HTMLInputElement>) => {
     const selectedFile = e.target.files?.[0]
@@ -37,6 +39,40 @@ export default function VideoUploadPage() {
       }
 
       setFile(selectedFile)
+      setError("")
+    }
+  }
+
+  // 拖拽进入
+  const handleDragOver = (e: React.DragEvent<HTMLDivElement>) => {
+    e.preventDefault()
+    e.stopPropagation()
+    setDragActive(true)
+  }
+
+  // 拖拽离开
+  const handleDragLeave = (e: React.DragEvent<HTMLDivElement>) => {
+    e.preventDefault()
+    e.stopPropagation()
+    setDragActive(false)
+  }
+
+  // 拖拽释放
+  const handleDrop = (e: React.DragEvent<HTMLDivElement>) => {
+    e.preventDefault()
+    e.stopPropagation()
+    setDragActive(false)
+    const droppedFile = e.dataTransfer.files?.[0]
+    if (droppedFile) {
+      if (!droppedFile.type.startsWith("video/")) {
+        setError("请选择视频文件")
+        return
+      }
+      if (droppedFile.size > 100 * 1024 * 1024) {
+        setError("文件大小不能超过100MB")
+        return
+      }
+      setFile(droppedFile)
       setError("")
     }
   }
@@ -64,7 +100,14 @@ export default function VideoUploadPage() {
         })
       }, 200)
 
-      const response = await detectionService.uploadVideo(file)
+      // 获取 userId
+      let userId = "1"
+      const userInfo = localStorage.getItem("user-info")
+      if (userInfo) {
+        const user = JSON.parse(userInfo)
+        userId = user.id || "1"
+      }
+      const response = await detectionService.uploadVideo(file, userId)
 
       clearInterval(progressInterval)
       setUploadProgress(100)
@@ -121,7 +164,12 @@ export default function VideoUploadPage() {
 
           <div className="space-y-4">
             <Label htmlFor="video-file">选择视频文件</Label>
-            <div className="border-2 border-dashed border-gray-300 rounded-lg p-8 text-center hover:border-gray-400 transition-colors">
+            <div
+              className={`border-2 border-dashed rounded-lg p-8 text-center transition-colors ${dragActive ? "border-blue-500 bg-blue-50" : "border-gray-300"}`}
+              onDrop={handleDrop}
+              onDragOver={handleDragOver}
+              onDragLeave={handleDragLeave}
+            >
               <Input
                 id="video-file"
                 type="file"

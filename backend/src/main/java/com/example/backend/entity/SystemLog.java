@@ -15,15 +15,12 @@ public class SystemLog {
 
     @Enumerated(EnumType.STRING)
     private Level level;
+    private Long userId;
 
     private String message;
 
     @CreationTimestamp
     private LocalDateTime createdAt;
-
-    public enum Level {
-        INFO, WARN, ERROR
-    }
 
     public Long getId() {
         return id;
@@ -40,6 +37,13 @@ public class SystemLog {
     public void setLevel(Level level) {
         this.level = level;
     }
+    public Long getUserId() {
+        return userId;
+    }
+
+    public void setUserId(Long userId) {
+        this.userId = userId;
+    }
 
     public String getMessage() {
         return message;
@@ -55,6 +59,10 @@ public class SystemLog {
 
     public void setCreatedAt(LocalDateTime createdAt) {
         this.createdAt = createdAt;
+    }
+
+    public enum Level {
+        INFO, WARN, ERROR
     }
 }
 

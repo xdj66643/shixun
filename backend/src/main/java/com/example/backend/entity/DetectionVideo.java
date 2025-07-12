@@ -55,6 +55,20 @@ public class DetectionVideo {
         this.createdAt = createdAt;
     }
 
+    private Integer duration; // 秒
+    private Long size; // 字节
+    private String status; // processing/completed/failed
+    private Integer defectCount = 0;
+
+    public Integer getDuration() { return duration; }
+    public void setDuration(Integer duration) { this.duration = duration; }
+    public Long getSize() { return size; }
+    public void setSize(Long size) { this.size = size; }
+    public String getStatus() { return status; }
+    public void setStatus(String status) { this.status = status; }
+    public Integer getDefectCount() { return defectCount; }
+    public void setDefectCount(Integer defectCount) { this.defectCount = defectCount; }
+
     @ManyToOne
     @JoinColumn(name = "upload_user")
     private User uploadUser;

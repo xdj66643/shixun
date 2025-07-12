@@ -2,7 +2,7 @@ import cv2
 from ultralytics import YOLO
 
 # 加载模型
-model = YOLO("road_damage/exp1/weights/best.pt")
+model = YOLO("road_damage/exp13/weights/best.pt")
 
 # 检测图像
 image_path = "crack.jpg"  # 替换为你的测试图像路径

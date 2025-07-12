@@ -24,6 +24,8 @@ import com.example.backend.service.MailService;
 import com.example.backend.entity.FaceLog;
 import com.example.backend.repository.FaceLogRepository;
 import org.springframework.core.io.FileSystemResource;
+import com.example.backend.repository.SystemLogRepository;
+import com.example.backend.entity.SystemLog;
 
 
 import java.time.LocalDateTime;
@@ -54,8 +56,10 @@ public class    AuthController {
 
     private final FaceLogRepository faceLogRepository;
 
+    private final SystemLogRepository systemLogRepository;
 
-    public AuthController(AuthService authService, UserRepository userRepository, TextCaptchaService textCaptchaService, VerificationCodeRepository verificationCodeRepository, LoginService loginService, MailService mailService, FaceLogRepository faceLogRepository) {
+
+    public AuthController(AuthService authService, UserRepository userRepository, TextCaptchaService textCaptchaService, VerificationCodeRepository verificationCodeRepository, LoginService loginService, MailService mailService, FaceLogRepository faceLogRepository, SystemLogRepository systemLogRepository) {
         this.authService = authService;
         this.userRepository = userRepository;
         this.textCaptchaService = textCaptchaService;
@@ -63,6 +67,7 @@ public class    AuthController {
         this.loginService = loginService;
         this.mailService = mailService;
         this.faceLogRepository = faceLogRepository;
+        this.systemLogRepository = systemLogRepository;
     }
 
     // 注册接口
@@ -105,6 +110,13 @@ public class    AuthController {
         Map<String, Object> data = new HashMap<>();
         data.put("token", "your-jwt-token"); // 这里应生成真实token
         data.put("user", userOpt.get());
+
+        // 写入系统日志
+        SystemLog log = new SystemLog();
+        log.setLevel(SystemLog.Level.INFO);
+        log.setMessage("用户" + userOpt.get().getUsername() + "登录成功");
+        log.setUserId(userOpt.get().getId());
+        systemLogRepository.save(log);
         return ApiResponse.success(data);
     }
     
@@ -137,7 +149,24 @@ public class    AuthController {
 
     @PostMapping("/login/code")
     public ResponseEntity<ApiResponse<Map<String, Object>>> loginWithCode(@Valid @RequestBody VerificationLoginRequest request) {
-       return loginService.loginWithVerificationCode(request);
+        ResponseEntity<ApiResponse<Map<String, Object>>> resp = loginService.loginWithVerificationCode(request);
+        if (resp.getBody() != null && resp.getBody().getCode() == 200 && resp.getBody().getData() != null && resp.getBody().getData().get("user") != null) {
+            Object userObj = resp.getBody().getData().get("user");
+            String username = "";
+            Long userId = null;
+            if (userObj instanceof java.util.Map) {
+                Object uname = ((java.util.Map<?,?>)userObj).get("username");
+                if (uname != null) username = uname.toString();
+                Object idObj = ((java.util.Map<?,?>)userObj).get("id");
+                if (idObj != null) userId = Long.valueOf(idObj.toString());
+            }
+            SystemLog log = new SystemLog();
+            log.setLevel(SystemLog.Level.INFO);
+            log.setMessage("用户" + username + "登录成功");
+            log.setUserId(userId);
+            systemLogRepository.save(log);
+        }
+        return resp;
     }
 
     @PostMapping("/login/face")
@@ -198,6 +227,12 @@ public class    AuthController {
                     log.setRecognized(true);
                     log.setReason(reason);
                     faceLogRepository.save(log);
+                    // 系统日志
+                    SystemLog syslog = new SystemLog();
+                    syslog.setLevel(SystemLog.Level.INFO);
+                    syslog.setMessage("用户" + logUser.getUsername() + "登录成功");
+                    syslog.setUserId(logUser.getId());
+                    systemLogRepository.save(syslog);
                     return ApiResponse.success(data);
                 } else {
                     reason = "未找到用户";

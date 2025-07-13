@@ -1,0 +1,43 @@
+
+    {% extends "base.html" %}
+
+    {% block title %}北京道路分析系统 - 关于{% endblock %}
+
+    {% block content %}
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header">
+                    <h5>关于本项目</h5>
+                </div>
+                <div class="card-body">
+                    <h4>北京道路分析系统</h4>
+                    <p>本系统基于车辆轨迹数据和乘车热点数据，分析北京市道路行驶情况及乘车热点分布。</p>
+
+                    <h5>功能介绍</h5>
+                    <ul>
+                        <li><strong>首页</strong> - 显示北京地图，标记已行驶和未行驶的道路，以及车辆轨迹示例</li>
+                        <li><strong>热点图</strong> - 按24小时时段划分，显示各时段的乘车热点聚类</li>
+                    </ul>
+
+                    <h5>数据来源</h5>
+                    <ul>
+                        <li>道路数据：OpenStreetMap</li>
+                        <li>车辆轨迹：车辆GPS数据</li>
+                        <li>乘车热点：乘车记录数据</li>
+                    </ul>
+
+                    <h5>技术实现</h5>
+                    <ul>
+                        <li>后端：Python Flask框架</li>
+                        <li>地理数据处理：GeoPandas, Shapely</li>
+                        <li>聚类算法：DBSCAN</li>
+                        <li>地图可视化：Folium</li>
+                        <li>前端：Bootstrap 5</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endblock %}
+    

@@ -1,0 +1,2610 @@
+[
+  {
+    "defect_type": "纵向裂缝",
+    "position": "674,413,958,714",
+    "area": 85484,
+    "confidence": 0.25245237350463867,
+    "image_path": "defect_1.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "672,414,954,715",
+    "area": 84882,
+    "confidence": 0.28771451115608215,
+    "image_path": "defect_1.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "671,417,943,715",
+    "area": 81056,
+    "confidence": 0.2590563893318176,
+    "image_path": "defect_1.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "625,338,931,707",
+    "area": 112914,
+    "confidence": 0.36142969131469727,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "667,416,935,715",
+    "area": 80132,
+    "confidence": 0.20799994468688965,
+    "image_path": "defect_1.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "622,343,923,707",
+    "area": 109564,
+    "confidence": 0.35494786500930786,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "653,406,930,714",
+    "area": 85316,
+    "confidence": 0.10994044691324234,
+    "image_path": "defect_1.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "618,342,914,703",
+    "area": 106856,
+    "confidence": 0.34916043281555176,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "617,340,907,702",
+    "area": 104980,
+    "confidence": 0.2173367142677307,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "618,345,903,704",
+    "area": 102315,
+    "confidence": 0.2866528034210205,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "614,338,885,692",
+    "area": 95934,
+    "confidence": 0.16189783811569214,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "607,324,889,698",
+    "area": 105468,
+    "confidence": 0.28572770953178406,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "605,316,884,694",
+    "area": 105462,
+    "confidence": 0.14258486032485962,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "598,311,884,697",
+    "area": 110396,
+    "confidence": 0.26790767908096313,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "603,312,883,700",
+    "area": 108640,
+    "confidence": 0.1673235446214676,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "618,325,862,689",
+    "area": 88816,
+    "confidence": 0.12547434866428375,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "634,327,826,660",
+    "area": 63936,
+    "confidence": 0.456127405166626,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "639,333,824,659",
+    "area": 60310,
+    "confidence": 0.44566935300827026,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "643,333,818,657",
+    "area": 56700,
+    "confidence": 0.5832114815711975,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "645,329,822,665",
+    "area": 59472,
+    "confidence": 0.5691475868225098,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "646,327,817,678",
+    "area": 60021,
+    "confidence": 0.6422603130340576,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "645,330,820,689",
+    "area": 62825,
+    "confidence": 0.7164931893348694,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "642,335,820,697",
+    "area": 64436,
+    "confidence": 0.7680596709251404,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "635,338,807,704",
+    "area": 62952,
+    "confidence": 0.7600297331809998,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "631,341,800,708",
+    "area": 62023,
+    "confidence": 0.7560459971427917,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "625,344,804,714",
+    "area": 66230,
+    "confidence": 0.5762149691581726,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "622,343,810,718",
+    "area": 70500,
+    "confidence": 0.5762011408805847,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "623,346,799,717",
+    "area": 65296,
+    "confidence": 0.7459155321121216,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "625,348,795,715",
+    "area": 62390,
+    "confidence": 0.7563598155975342,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "626,346,794,714",
+    "area": 61824,
+    "confidence": 0.6966559290885925,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "624,345,791,713",
+    "area": 61456,
+    "confidence": 0.6992170214653015,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "626,347,792,714",
+    "area": 60922,
+    "confidence": 0.7295302152633667,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "627,348,791,715",
+    "area": 60188,
+    "confidence": 0.7193633317947388,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "632,349,785,712",
+    "area": 55539,
+    "confidence": 0.7040586471557617,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "640,353,785,712",
+    "area": 52055,
+    "confidence": 0.6437915563583374,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "647,357,786,715",
+    "area": 49762,
+    "confidence": 0.6453413963317871,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "651,362,782,716",
+    "area": 46374,
+    "confidence": 0.6674543023109436,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "649,363,782,718",
+    "area": 47215,
+    "confidence": 0.34028908610343933,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "647,373,782,720",
+    "area": 46845,
+    "confidence": 0.44389045238494873,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "647,385,777,720",
+    "area": 43550,
+    "confidence": 0.39748433232307434,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "648,392,775,718",
+    "area": 41402,
+    "confidence": 0.37217357754707336,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "650,397,754,717",
+    "area": 33280,
+    "confidence": 0.45609015226364136,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "653,401,746,716",
+    "area": 29295,
+    "confidence": 0.420864999294281,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "652,398,789,718",
+    "area": 43840,
+    "confidence": 0.3845614492893219,
+    "image_path": "defect_7.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "655,402,739,715",
+    "area": 26292,
+    "confidence": 0.45371589064598083,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "653,399,803,718",
+    "area": 47850,
+    "confidence": 0.24120154976844788,
+    "image_path": "defect_7.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "657,405,732,713",
+    "area": 23100,
+    "confidence": 0.49149996042251587,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "656,400,804,716",
+    "area": 46768,
+    "confidence": 0.13282188773155212,
+    "image_path": "defect_7.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "657,408,731,715",
+    "area": 22718,
+    "confidence": 0.541089653968811,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "658,404,800,716",
+    "area": 44304,
+    "confidence": 0.10718345642089844,
+    "image_path": "defect_7.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "659,412,727,716",
+    "area": 20672,
+    "confidence": 0.6442179679870605,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "659,420,724,716",
+    "area": 19240,
+    "confidence": 0.6139485239982605,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "657,427,722,715",
+    "area": 18720,
+    "confidence": 0.6599005460739136,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "656,435,721,717",
+    "area": 18330,
+    "confidence": 0.69704270362854,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "656,446,726,718",
+    "area": 19040,
+    "confidence": 0.5219935178756714,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "657,456,728,718",
+    "area": 18602,
+    "confidence": 0.4689161479473114,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "658,463,732,718",
+    "area": 18870,
+    "confidence": 0.4744560122489929,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "661,471,734,718",
+    "area": 18031,
+    "confidence": 0.4374799430370331,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "663,479,736,718",
+    "area": 17447,
+    "confidence": 0.4761401116847992,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "664,484,737,718",
+    "area": 17082,
+    "confidence": 0.5107460618019104,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "663,488,737,717",
+    "area": 16946,
+    "confidence": 0.39517372846603394,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "662,497,737,718",
+    "area": 16575,
+    "confidence": 0.28258538246154785,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "663,506,741,717",
+    "area": 16458,
+    "confidence": 0.1830911934375763,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "663,523,741,718",
+    "area": 15210,
+    "confidence": 0.16908316314220428,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "663,525,744,718",
+    "area": 15633,
+    "confidence": 0.15021923184394836,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "664,525,743,718",
+    "area": 15247,
+    "confidence": 0.1430671364068985,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "666,525,741,718",
+    "area": 14475,
+    "confidence": 0.12097986042499542,
+    "image_path": "defect_2.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "877,138,1280,719",
+    "area": 234143,
+    "confidence": 0.32108932733535767,
+    "image_path": "defect_22.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "870,143,1280,718",
+    "area": 235750,
+    "confidence": 0.3213491439819336,
+    "image_path": "defect_22.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "859,145,1280,717",
+    "area": 240812,
+    "confidence": 0.2922009527683258,
+    "image_path": "defect_22.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "833,148,1279,720",
+    "area": 255112,
+    "confidence": 0.2848277986049652,
+    "image_path": "defect_22.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "855,154,1278,719",
+    "area": 238995,
+    "confidence": 0.245298832654953,
+    "image_path": "defect_22.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "857,168,1279,718",
+    "area": 232100,
+    "confidence": 0.27915576100349426,
+    "image_path": "defect_22.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "846,170,1279,717",
+    "area": 236851,
+    "confidence": 0.3136596083641052,
+    "image_path": "defect_22.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "840,176,1280,717",
+    "area": 238040,
+    "confidence": 0.27731746435165405,
+    "image_path": "defect_22.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "831,180,1280,716",
+    "area": 240664,
+    "confidence": 0.32781916856765747,
+    "image_path": "defect_22.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "817,183,1280,714",
+    "area": 245853,
+    "confidence": 0.25740888714790344,
+    "image_path": "defect_22.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "826,182,1280,712",
+    "area": 240620,
+    "confidence": 0.35467958450317383,
+    "image_path": "defect_22.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "828,177,1280,711",
+    "area": 241368,
+    "confidence": 0.20513740181922913,
+    "image_path": "defect_22.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "849,166,1280,711",
+    "area": 234895,
+    "confidence": 0.1938115507364273,
+    "image_path": "defect_22.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "836,168,1280,712",
+    "area": 241536,
+    "confidence": 0.19529558718204498,
+    "image_path": "defect_22.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "807,158,1280,713",
+    "area": 262515,
+    "confidence": 0.20284630358219147,
+    "image_path": "defect_22.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "843,155,1280,716",
+    "area": 245157,
+    "confidence": 0.15957225859165192,
+    "image_path": "defect_22.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "854,152,1280,718",
+    "area": 241116,
+    "confidence": 0.17412175238132477,
+    "image_path": "defect_22.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "873,147,1280,720",
+    "area": 233211,
+    "confidence": 0.17600210011005402,
+    "image_path": "defect_22.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "862,148,1280,720",
+    "area": 239096,
+    "confidence": 0.19296129047870636,
+    "image_path": "defect_22.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "825,160,1279,720",
+    "area": 254240,
+    "confidence": 0.15497946739196777,
+    "image_path": "defect_22.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "815,169,1278,720",
+    "area": 255113,
+    "confidence": 0.13481423258781433,
+    "image_path": "defect_22.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "867,158,1278,718",
+    "area": 230160,
+    "confidence": 0.19070598483085632,
+    "image_path": "defect_22.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "546,253,1280,720",
+    "area": 342778,
+    "confidence": 0.4321061074733734,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "543,255,1280,720",
+    "area": 342705,
+    "confidence": 0.527029812335968,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "545,249,1280,720",
+    "area": 346185,
+    "confidence": 0.3384915888309479,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "555,252,1280,720",
+    "area": 339300,
+    "confidence": 0.3494288921356201,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "535,248,1279,720",
+    "area": 351168,
+    "confidence": 0.44011205434799194,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "491,238,1277,720",
+    "area": 378852,
+    "confidence": 0.2900198698043823,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "461,233,1278,720",
+    "area": 397879,
+    "confidence": 0.18109442293643951,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "505,250,1279,720",
+    "area": 363780,
+    "confidence": 0.23598845303058624,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "516,255,1279,720",
+    "area": 354795,
+    "confidence": 0.17007310688495636,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "425,245,1279,720",
+    "area": 405650,
+    "confidence": 0.11229903995990753,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "469,269,1278,720",
+    "area": 364859,
+    "confidence": 0.14333981275558472,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "522,237,1279,718",
+    "area": 364117,
+    "confidence": 0.29890599846839905,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "507,228,1279,717",
+    "area": 377508,
+    "confidence": 0.3815361559391022,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "517,222,1280,717",
+    "area": 377685,
+    "confidence": 0.30229753255844116,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "497,255,1280,717",
+    "area": 361746,
+    "confidence": 0.3136909306049347,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "480,250,1279,717",
+    "area": 373133,
+    "confidence": 0.34170088171958923,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "509,226,1280,718",
+    "area": 379332,
+    "confidence": 0.29480308294296265,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "510,229,1280,719",
+    "area": 377300,
+    "confidence": 0.20168159902095795,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "508,239,1280,719",
+    "area": 370560,
+    "confidence": 0.22470107674598694,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "518,244,1280,720",
+    "area": 362712,
+    "confidence": 0.1769281029701233,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "527,240,1279,720",
+    "area": 360960,
+    "confidence": 0.2728314995765686,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "539,240,1279,720",
+    "area": 355200,
+    "confidence": 0.27342262864112854,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "547,239,1278,720",
+    "area": 351611,
+    "confidence": 0.2951144576072693,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "551,243,1278,719",
+    "area": 346052,
+    "confidence": 0.3465174436569214,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "556,260,1278,718",
+    "area": 330676,
+    "confidence": 0.36270663142204285,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "573,254,1278,718",
+    "area": 327120,
+    "confidence": 0.41864606738090515,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "593,256,1278,718",
+    "area": 316470,
+    "confidence": 0.46027904748916626,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "589,258,1278,719",
+    "area": 317629,
+    "confidence": 0.5196573734283447,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "605,312,1278,718",
+    "area": 273238,
+    "confidence": 0.5467049479484558,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "588,304,1278,720",
+    "area": 287040,
+    "confidence": 0.44775718450546265,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "590,283,1278,720",
+    "area": 300656,
+    "confidence": 0.48704150319099426,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "600,288,1278,720",
+    "area": 292896,
+    "confidence": 0.4254816770553589,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "606,290,1279,720",
+    "area": 289390,
+    "confidence": 0.5466492772102356,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "595,295,1280,719",
+    "area": 290440,
+    "confidence": 0.5595493316650391,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "573,302,1280,718",
+    "area": 294112,
+    "confidence": 0.5954915285110474,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "583,306,1280,717",
+    "area": 286467,
+    "confidence": 0.5950343012809753,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "601,311,1280,716",
+    "area": 274995,
+    "confidence": 0.6610933542251587,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "617,316,1280,716",
+    "area": 265200,
+    "confidence": 0.5901305079460144,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "617,314,1280,716",
+    "area": 266526,
+    "confidence": 0.558722198009491,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "601,324,1280,716",
+    "area": 266168,
+    "confidence": 0.5277020931243896,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "580,318,1279,716",
+    "area": 278202,
+    "confidence": 0.5340492725372314,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "564,315,1279,716",
+    "area": 286715,
+    "confidence": 0.5508075952529907,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "557,308,1279,717",
+    "area": 295298,
+    "confidence": 0.49277451634407043,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "558,310,1278,719",
+    "area": 294480,
+    "confidence": 0.4921778738498688,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "559,300,1278,720",
+    "area": 301980,
+    "confidence": 0.48939624428749084,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "557,301,1275,720",
+    "area": 300842,
+    "confidence": 0.39188912510871887,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "546,310,1271,719",
+    "area": 296525,
+    "confidence": 0.4039943516254425,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "535,325,1264,718",
+    "area": 286497,
+    "confidence": 0.35368770360946655,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "514,317,1261,718",
+    "area": 299547,
+    "confidence": 0.35783034563064575,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "512,315,1265,717",
+    "area": 302706,
+    "confidence": 0.4083244502544403,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "515,273,1272,716",
+    "area": 335351,
+    "confidence": 0.3330745995044708,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "531,262,1276,715",
+    "area": 337485,
+    "confidence": 0.35595712065696716,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "550,253,1278,716",
+    "area": 337064,
+    "confidence": 0.42283880710601807,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "559,247,1279,717",
+    "area": 338400,
+    "confidence": 0.4521310031414032,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "547,245,1279,719",
+    "area": 346968,
+    "confidence": 0.4699528217315674,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "547,267,1273,720",
+    "area": 328878,
+    "confidence": 0.3478105068206787,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "574,317,1267,720",
+    "area": 279279,
+    "confidence": 0.2054254710674286,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "619,307,1257,720",
+    "area": 263494,
+    "confidence": 0.15658365190029144,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "619,337,1182,720",
+    "area": 215629,
+    "confidence": 0.10150711238384247,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "623,296,1241,720",
+    "area": 262032,
+    "confidence": 0.11791594326496124,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "637,295,1266,719",
+    "area": 266696,
+    "confidence": 0.10357485711574554,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "659,305,1275,718",
+    "area": 254408,
+    "confidence": 0.12549418210983276,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "669,317,1274,718",
+    "area": 242605,
+    "confidence": 0.14536736905574799,
+    "image_path": "defect_24.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "407,566,634,618",
+    "area": 11804,
+    "confidence": 0.4417150020599365,
+    "image_path": "defect_30.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "408,575,636,627",
+    "area": 11856,
+    "confidence": 0.32139045000076294,
+    "image_path": "defect_30.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "413,582,638,633",
+    "area": 11475,
+    "confidence": 0.43723902106285095,
+    "image_path": "defect_30.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "424,594,645,640",
+    "area": 10166,
+    "confidence": 0.2766832113265991,
+    "image_path": "defect_30.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "418,601,644,648",
+    "area": 10622,
+    "confidence": 0.2549645006656647,
+    "image_path": "defect_30.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "413,609,643,656",
+    "area": 10810,
+    "confidence": 0.35713890194892883,
+    "image_path": "defect_30.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "399,613,645,662",
+    "area": 12054,
+    "confidence": 0.35642701387405396,
+    "image_path": "defect_30.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "388,616,644,666",
+    "area": 12800,
+    "confidence": 0.39299488067626953,
+    "image_path": "defect_30.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "375,617,645,670",
+    "area": 14310,
+    "confidence": 0.34584692120552063,
+    "image_path": "defect_30.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "369,618,645,672",
+    "area": 14904,
+    "confidence": 0.2926141023635864,
+    "image_path": "defect_30.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "364,619,645,673",
+    "area": 15174,
+    "confidence": 0.40582796931266785,
+    "image_path": "defect_30.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "363,620,645,675",
+    "area": 15510,
+    "confidence": 0.4299834072589874,
+    "image_path": "defect_30.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "354,627,639,684",
+    "area": 16245,
+    "confidence": 0.3413061797618866,
+    "image_path": "defect_30.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "352,637,636,692",
+    "area": 15620,
+    "confidence": 0.11127479374408722,
+    "image_path": "defect_30.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "345,643,634,699",
+    "area": 16184,
+    "confidence": 0.36886024475097656,
+    "image_path": "defect_30.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "338,652,631,709",
+    "area": 16701,
+    "confidence": 0.3378845751285553,
+    "image_path": "defect_30.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "328,659,621,715",
+    "area": 16408,
+    "confidence": 0.300478994846344,
+    "image_path": "defect_30.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "327,666,619,720",
+    "area": 15768,
+    "confidence": 0.27665942907333374,
+    "image_path": "defect_30.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "327,675,615,720",
+    "area": 12960,
+    "confidence": 0.17010317742824554,
+    "image_path": "defect_30.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "633,285,834,338",
+    "area": 10653,
+    "confidence": 0.3936934173107147,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "632,290,829,343",
+    "area": 10441,
+    "confidence": 0.42522329092025757,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "624,297,838,350",
+    "area": 11342,
+    "confidence": 0.43356823921203613,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "622,303,824,352",
+    "area": 9898,
+    "confidence": 0.2793579399585724,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "607,338,765,386",
+    "area": 7584,
+    "confidence": 0.30225253105163574,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "602,345,773,394",
+    "area": 8379,
+    "confidence": 0.3716445565223694,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "599,349,779,400",
+    "area": 9180,
+    "confidence": 0.377351850271225,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "600,351,780,400",
+    "area": 8820,
+    "confidence": 0.4846266508102417,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "601,351,779,400",
+    "area": 8722,
+    "confidence": 0.44977328181266785,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "599,350,782,399",
+    "area": 8967,
+    "confidence": 0.3820968568325043,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "596,349,782,399",
+    "area": 9300,
+    "confidence": 0.4790126383304596,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "594,351,779,397",
+    "area": 8510,
+    "confidence": 0.22536876797676086,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "587,353,773,402",
+    "area": 9114,
+    "confidence": 0.4472000002861023,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "584,356,770,406",
+    "area": 9300,
+    "confidence": 0.16087956726551056,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "576,358,764,410",
+    "area": 9776,
+    "confidence": 0.4505782425403595,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "713,158,1147,239",
+    "area": 35154,
+    "confidence": 0.45453622937202454,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "570,361,762,413",
+    "area": 9984,
+    "confidence": 0.1612958163022995,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "710,159,1145,241",
+    "area": 35670,
+    "confidence": 0.3814873695373535,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "563,366,749,415",
+    "area": 9114,
+    "confidence": 0.32811641693115234,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "705,159,1148,243",
+    "area": 37212,
+    "confidence": 0.2524014711380005,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "557,369,742,421",
+    "area": 9620,
+    "confidence": 0.5567203164100647,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "700,161,1145,246",
+    "area": 37825,
+    "confidence": 0.3094022274017334,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "549,372,731,427",
+    "area": 10010,
+    "confidence": 0.4844878017902374,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "695,167,1132,249",
+    "area": 35834,
+    "confidence": 0.2975315749645233,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "538,378,720,433",
+    "area": 10010,
+    "confidence": 0.4249992370605469,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "688,171,1120,254",
+    "area": 35856,
+    "confidence": 0.3023277521133423,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "531,385,712,439",
+    "area": 9774,
+    "confidence": 0.5590465664863586,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "682,176,1118,257",
+    "area": 35316,
+    "confidence": 0.33485686779022217,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "526,389,707,445",
+    "area": 10136,
+    "confidence": 0.4775148332118988,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "676,179,1111,260",
+    "area": 35235,
+    "confidence": 0.3095141649246216,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "522,393,703,449",
+    "area": 10136,
+    "confidence": 0.4648831784725189,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "671,181,1113,263",
+    "area": 36244,
+    "confidence": 0.3227754533290863,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "521,396,701,453",
+    "area": 10260,
+    "confidence": 0.4383484125137329,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "667,180,1114,265",
+    "area": 37995,
+    "confidence": 0.3056730329990387,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "518,402,704,454",
+    "area": 9672,
+    "confidence": 0.2837897539138794,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "665,179,1111,266",
+    "area": 38802,
+    "confidence": 0.30232468247413635,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "510,405,709,462",
+    "area": 11343,
+    "confidence": 0.4040365219116211,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "665,182,1109,268",
+    "area": 38184,
+    "confidence": 0.28663215041160583,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "506,410,701,464",
+    "area": 10530,
+    "confidence": 0.40647774934768677,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "663,183,1112,270",
+    "area": 39063,
+    "confidence": 0.3835545480251312,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "502,416,693,467",
+    "area": 9741,
+    "confidence": 0.2119521051645279,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "662,184,1111,271",
+    "area": 39063,
+    "confidence": 0.3349819779396057,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "494,418,676,470",
+    "area": 9464,
+    "confidence": 0.45059624314308167,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "659,184,1108,272",
+    "area": 39512,
+    "confidence": 0.402275949716568,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "484,424,659,475",
+    "area": 8925,
+    "confidence": 0.3926871418952942,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "652,185,1106,273",
+    "area": 39952,
+    "confidence": 0.30914175510406494,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "478,429,641,479",
+    "area": 8150,
+    "confidence": 0.5069801211357117,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "644,186,1098,275",
+    "area": 40406,
+    "confidence": 0.3387035131454468,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "468,433,630,483",
+    "area": 8100,
+    "confidence": 0.451472669839859,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "637,185,1093,278",
+    "area": 42408,
+    "confidence": 0.30429670214653015,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "457,437,619,488",
+    "area": 8262,
+    "confidence": 0.36568188667297363,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "628,187,1086,282",
+    "area": 43510,
+    "confidence": 0.4247972369194031,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "448,441,607,493",
+    "area": 8268,
+    "confidence": 0.2550557553768158,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "621,186,1083,285",
+    "area": 45738,
+    "confidence": 0.2914312779903412,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "441,445,602,498",
+    "area": 8533,
+    "confidence": 0.32392826676368713,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "618,186,1082,287",
+    "area": 46864,
+    "confidence": 0.2814081311225891,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "436,450,597,502",
+    "area": 8372,
+    "confidence": 0.4697445034980774,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "611,184,1081,290",
+    "area": 49820,
+    "confidence": 0.2829470932483673,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "433,454,594,506",
+    "area": 8372,
+    "confidence": 0.3853877782821655,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "605,183,1079,293",
+    "area": 52140,
+    "confidence": 0.3209426999092102,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "430,457,590,510",
+    "area": 8480,
+    "confidence": 0.4139367640018463,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "601,184,1079,294",
+    "area": 52580,
+    "confidence": 0.3170577883720398,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "428,460,585,512",
+    "area": 8164,
+    "confidence": 0.5265291333198547,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "601,185,1079,294",
+    "area": 52102,
+    "confidence": 0.3217787742614746,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "423,463,580,514",
+    "area": 8007,
+    "confidence": 0.5740600824356079,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "600,186,1079,295",
+    "area": 52211,
+    "confidence": 0.2937985062599182,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "417,466,577,518",
+    "area": 8320,
+    "confidence": 0.4965042471885681,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "600,186,1080,295",
+    "area": 52320,
+    "confidence": 0.25866249203681946,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "412,469,573,521",
+    "area": 8372,
+    "confidence": 0.4437028467655182,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "598,187,1078,296",
+    "area": 52320,
+    "confidence": 0.244174987077713,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "404,474,573,529",
+    "area": 9295,
+    "confidence": 0.5699880123138428,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "594,194,1072,298",
+    "area": 49712,
+    "confidence": 0.2479727566242218,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "398,481,571,536",
+    "area": 9515,
+    "confidence": 0.5110041499137878,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "588,199,1067,303",
+    "area": 49816,
+    "confidence": 0.310269296169281,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "395,490,566,548",
+    "area": 9918,
+    "confidence": 0.5643739700317383,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "590,209,1080,307",
+    "area": 48020,
+    "confidence": 0.3829714357852936,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "393,498,564,554",
+    "area": 9576,
+    "confidence": 0.6030171513557434,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "592,215,1076,313",
+    "area": 47432,
+    "confidence": 0.48519790172576904,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "385,502,563,562",
+    "area": 10680,
+    "confidence": 0.5389031767845154,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "591,215,1080,317",
+    "area": 49878,
+    "confidence": 0.4460773766040802,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "379,504,556,565",
+    "area": 10797,
+    "confidence": 0.5485658645629883,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "588,215,1080,318",
+    "area": 50676,
+    "confidence": 0.5162460803985596,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "370,507,551,568",
+    "area": 11041,
+    "confidence": 0.5555103421211243,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "587,216,1077,317",
+    "area": 49490,
+    "confidence": 0.45960533618927,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "363,511,549,574",
+    "area": 11718,
+    "confidence": 0.5167744755744934,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "579,217,1072,316",
+    "area": 48807,
+    "confidence": 0.4389255940914154,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "356,517,553,582",
+    "area": 12805,
+    "confidence": 0.5534825325012207,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "572,217,1070,318",
+    "area": 50298,
+    "confidence": 0.406296968460083,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "354,525,550,589",
+    "area": 12544,
+    "confidence": 0.6172581911087036,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "564,219,1073,322",
+    "area": 52427,
+    "confidence": 0.383968710899353,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "351,528,551,593",
+    "area": 13000,
+    "confidence": 0.5819652080535889,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "567,214,1086,323",
+    "area": 56571,
+    "confidence": 0.39118343591690063,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "349,530,552,597",
+    "area": 13601,
+    "confidence": 0.5589485168457031,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "568,212,1085,323",
+    "area": 57387,
+    "confidence": 0.38446223735809326,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "345,534,544,601",
+    "area": 13333,
+    "confidence": 0.5178772211074829,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "566,209,1087,324",
+    "area": 59915,
+    "confidence": 0.37591931223869324,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "339,540,532,605",
+    "area": 12545,
+    "confidence": 0.5389339923858643,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "562,209,1087,326",
+    "area": 61425,
+    "confidence": 0.34496012330055237,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "330,545,522,612",
+    "area": 12864,
+    "confidence": 0.5752505660057068,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "556,208,1091,329",
+    "area": 64735,
+    "confidence": 0.2806438207626343,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "326,552,514,618",
+    "area": 12408,
+    "confidence": 0.5805206298828125,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "553,210,1082,331",
+    "area": 64009,
+    "confidence": 0.400362491607666,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "318,558,508,622",
+    "area": 12160,
+    "confidence": 0.6157532334327698,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "549,209,1085,331",
+    "area": 65392,
+    "confidence": 0.3251328766345978,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "313,561,505,626",
+    "area": 12480,
+    "confidence": 0.5557777285575867,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "543,209,1085,332",
+    "area": 66666,
+    "confidence": 0.31266146898269653,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "311,565,508,631",
+    "area": 13002,
+    "confidence": 0.4274906516075134,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "540,208,1082,332",
+    "area": 67208,
+    "confidence": 0.3656005561351776,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "312,570,509,637",
+    "area": 13199,
+    "confidence": 0.5261356830596924,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "540,205,1093,333",
+    "area": 70784,
+    "confidence": 0.37520498037338257,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "312,576,509,643",
+    "area": 13199,
+    "confidence": 0.5578219294548035,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "541,206,1091,334",
+    "area": 70400,
+    "confidence": 0.48605290055274963,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "313,582,511,649",
+    "area": 13266,
+    "confidence": 0.6226522922515869,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "549,203,1097,335",
+    "area": 72336,
+    "confidence": 0.4110869765281677,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "313,588,514,654",
+    "area": 13266,
+    "confidence": 0.6618688702583313,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "553,203,1096,338",
+    "area": 73305,
+    "confidence": 0.30611345171928406,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "312,594,513,663",
+    "area": 13869,
+    "confidence": 0.5212540030479431,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "555,203,1102,341",
+    "area": 75486,
+    "confidence": 0.3058125078678131,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "311,602,514,671",
+    "area": 14007,
+    "confidence": 0.5732627511024475,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "555,203,1100,346",
+    "area": 77935,
+    "confidence": 0.29283034801483154,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "308,611,515,681",
+    "area": 14490,
+    "confidence": 0.5664809346199036,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "558,205,1106,349",
+    "area": 78912,
+    "confidence": 0.35792654752731323,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "303,619,512,691",
+    "area": 15048,
+    "confidence": 0.4938785433769226,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "560,208,1105,353",
+    "area": 79025,
+    "confidence": 0.44563356041908264,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "297,627,513,701",
+    "area": 15984,
+    "confidence": 0.36789992451667786,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "553,210,1103,359",
+    "area": 81950,
+    "confidence": 0.36244818568229675,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "290,637,511,711",
+    "area": 16354,
+    "confidence": 0.40519067645072937,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "548,215,1104,366",
+    "area": 83956,
+    "confidence": 0.2054472416639328,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "286,647,510,719",
+    "area": 16128,
+    "confidence": 0.44321969151496887,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "549,221,1105,369",
+    "area": 82288,
+    "confidence": 0.29660382866859436,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "280,654,495,720",
+    "area": 14190,
+    "confidence": 0.3995017409324646,
+    "image_path": "defect_34.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "551,228,1108,373",
+    "area": 80765,
+    "confidence": 0.2423587441444397,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "547,233,1111,378",
+    "area": 81780,
+    "confidence": 0.36172810196876526,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "547,238,1111,382",
+    "area": 81216,
+    "confidence": 0.22430291771888733,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "547,238,1113,384",
+    "area": 82636,
+    "confidence": 0.24867981672286987,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "542,240,1110,389",
+    "area": 84632,
+    "confidence": 0.10278527438640594,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "535,242,1117,391",
+    "area": 86718,
+    "confidence": 0.11287067085504532,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "533,249,1116,397",
+    "area": 86284,
+    "confidence": 0.1901540756225586,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "530,250,1114,402",
+    "area": 88768,
+    "confidence": 0.13483625650405884,
+    "image_path": "defect_37.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "250,209,599,367",
+    "area": 55142,
+    "confidence": 0.3255622684955597,
+    "image_path": "defect_58.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "249,210,602,369",
+    "area": 56127,
+    "confidence": 0.298042893409729,
+    "image_path": "defect_58.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "247,211,602,372",
+    "area": 57155,
+    "confidence": 0.29556792974472046,
+    "image_path": "defect_58.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "246,214,599,373",
+    "area": 56127,
+    "confidence": 0.3357124328613281,
+    "image_path": "defect_58.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "244,213,600,376",
+    "area": 58028,
+    "confidence": 0.2843872904777527,
+    "image_path": "defect_58.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "230,217,595,380",
+    "area": 59495,
+    "confidence": 0.21943573653697968,
+    "image_path": "defect_58.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "215,219,587,386",
+    "area": 62124,
+    "confidence": 0.30348825454711914,
+    "image_path": "defect_58.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "206,224,580,393",
+    "area": 63206,
+    "confidence": 0.2742888331413269,
+    "image_path": "defect_58.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "197,231,572,396",
+    "area": 61875,
+    "confidence": 0.3505079746246338,
+    "image_path": "defect_58.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "188,233,567,398",
+    "area": 62535,
+    "confidence": 0.31294214725494385,
+    "image_path": "defect_58.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "182,235,558,400",
+    "area": 62040,
+    "confidence": 0.36604514718055725,
+    "image_path": "defect_58.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "176,235,554,399",
+    "area": 61992,
+    "confidence": 0.39208924770355225,
+    "image_path": "defect_58.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "157,232,546,400",
+    "area": 65352,
+    "confidence": 0.32603007555007935,
+    "image_path": "defect_58.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "纵向裂缝",
+    "position": "126,224,530,399",
+    "area": 70700,
+    "confidence": 0.1425067037343979,
+    "image_path": "defect_58.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "105,213,510,390",
+    "area": 71685,
+    "confidence": 0.13518841564655304,
+    "image_path": "defect_58.jpg",
+    "video_path": "test.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "51,205,483,385",
+    "area": 77760,
+    "confidence": 0.21005208790302277,
+    "image_path": "defect_58.jpg",
+    "video_path": "test.mp4"
+  }
+]

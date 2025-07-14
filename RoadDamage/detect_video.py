@@ -134,7 +134,11 @@ for i, name in enumerate(model.names):
 
 # 检测结束后保存为 JSON 文件
 result_json = sys.argv[3] if len(sys.argv) > 3 else "result.json"
-result_json_path = os.path.join(os.path.dirname(__file__), result_json)
+# 写到 backend/ 目录
+backend_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "../backend"))
+if not os.path.exists(backend_dir):
+    os.makedirs(backend_dir)
+result_json_path = os.path.join(backend_dir, result_json)
 print("即将写入json文件：", result_json_path)
 with open(result_json_path, "w", encoding="utf-8") as f:
     json.dump(defect_results, f, ensure_ascii=False, indent=2)

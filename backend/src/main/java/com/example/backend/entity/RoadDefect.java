@@ -1,5 +1,6 @@
 package com.example.backend.entity;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;
 import lombok.Data;
 import org.hibernate.annotations.CreationTimestamp;
@@ -10,6 +11,7 @@ import java.time.LocalDateTime;
 @Entity
 @Table(name = "road_defects")
 public class RoadDefect {
+    @JsonProperty("id")
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
@@ -17,13 +19,19 @@ public class RoadDefect {
     @JoinColumn(name = "video_id")
     private DetectionVideo video;
 
+    @JsonProperty("defect_type")
     private String defectType;
+    @JsonProperty("position")
     private String position;
+    @JsonProperty("area")
     private Float area;
+    @JsonProperty("confidence")
     private Float confidence;
+    @JsonProperty("image_path")
     private String imagePath;
-
-    @CreationTimestamp
+    @JsonProperty("processed")
+    private Boolean processed = false;
+    @JsonProperty("created_at")
     private LocalDateTime createdAt;
 
     public Long getId() {
@@ -81,6 +89,9 @@ public class RoadDefect {
     public void setImagePath(String imagePath) {
         this.imagePath = imagePath;
     }
+
+    public Boolean getProcessed() { return processed; }
+    public void setProcessed(Boolean processed) { this.processed = processed; }
 
     public LocalDateTime getCreatedAt() {
         return createdAt;

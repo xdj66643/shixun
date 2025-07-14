@@ -19,6 +19,7 @@ interface DetectionVideo {
   sourcePath?: string // Added sourcePath for compatibility
 }
 
+// 与 detection/process/page.tsx 完全一致
 interface Defect {
   id: string
   defect_type: string
@@ -28,6 +29,7 @@ interface Defect {
   area?: number
   image_path?: string
   video_path?: string
+  processed?: boolean // Added processed field
 }
 
 export default function DetectionResultsPage() {
@@ -110,6 +112,31 @@ export default function DetectionResultsPage() {
   const filteredVideos = videos.filter(
     (video) => ((video.filename || video.sourcePath || "") as string).toLowerCase().includes(searchTerm.toLowerCase())
   )
+
+  // 下载报告功能，直接下载 JSON 文件
+  const handleDownload = async () => {
+    if (!selectedVideo) return;
+    // 确保 videoId 为数字类型
+    const videoId = Number(selectedVideo.id);
+    if (isNaN(videoId)) {
+      alert('视频ID无效，无法下载报告');
+      return;
+    }
+    const res = await fetch(`http://localhost:8080/api/detection/report/downloadExcel?videoId=${videoId}`);
+    if (!res.ok) {
+      alert('下载失败');
+      return;
+    }
+    const blob = await res.blob();
+    const url = window.URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `report_${selectedVideo.filename || selectedVideo.sourcePath || selectedVideo.id}.xlsx`;
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    window.URL.revokeObjectURL(url);
+  };
 
   if (loading) {
     return (
@@ -206,14 +233,10 @@ export default function DetectionResultsPage() {
                       </CardDescription>
                     </div>
                     <div className="flex space-x-2">
-                      <Button variant="outline" size="sm">
-                        <Eye className="w-4 h-4 mr-2" />
-                        预览
-                      </Button>
-                      <Button variant="outline" size="sm">
-                        <Download className="w-4 h-4 mr-2" />
-                        下载报告
-                      </Button>
+                       <Button variant="outline" size="sm" onClick={handleDownload} disabled={!selectedVideo}>
+                         <Download className="w-4 h-4 mr-2" />
+                         下载报告
+                       </Button>
                     </div>
                   </div>
                 </CardHeader>
@@ -262,7 +285,7 @@ export default function DetectionResultsPage() {
                                   <AlertTriangle className="w-5 h-5 text-red-600" />
                                 </div>
                                 <div>
-                                  <h4 className="font-medium">{(defect as any).defect_type || (defect as any).type || (defect as any).defectType || "未知"}</h4>
+                                  <h4 className="font-medium">{defect.defect_type}</h4>
                                   <div className="flex items-center space-x-4 mt-1 text-sm text-gray-600">
                                     <div className="flex items-center">
                                       <MapPin className="w-4 h-4 mr-1" />
@@ -274,9 +297,12 @@ export default function DetectionResultsPage() {
                                   </p>
                                 </div>
                               </div>
-                              <Badge className={getSeverityColor(defect.severity)}>
-                                {defect.severity === "high" ? "严重" : defect.severity === "medium" ? "中等" : "轻微"}
-                              </Badge>
+                              <div className="flex flex-col items-end">
+                                <Badge className={getSeverityColor((defect.confidence*100)>40?"high":"low")}>
+                                  {(defect.confidence*100) > 40 ? "严重" : "轻微"}
+                                </Badge>
+                                {defect.processed && <span className="text-green-600 text-xs mt-1">已处理</span>}
+                              </div>
                             </div>
                           </CardContent>
                         </Card>

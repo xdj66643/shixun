@@ -5,4 +5,5 @@ import java.util.List;
 
 public interface RoadDefectService {
     List<RoadDefect> getDefectsByVideoId(Long videoId);
+    void processDefects(List<Long> ids);
 }

@@ -21,4 +21,9 @@ public class RoadDefectServiceImpl implements RoadDefectService {
     public List<RoadDefect> getDefectsByVideoId(Long videoId) {
         return defectRepo.findByVideo_Id(videoId);
     }
+
+    @Override
+    public void processDefects(List<Long> ids) {
+        defectRepo.updateProcessedByIds(ids);
+    }
 }

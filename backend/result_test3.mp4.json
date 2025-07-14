@@ -1,1 +1,402 @@
-[]
+[
+  {
+    "defect_type": "坑洼",
+    "position": "229,290,375,386",
+    "area": 14016,
+    "confidence": 0.4884951114654541,
+    "image_path": "defect_8.jpg",
+    "video_path": "test3.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "226,291,373,388",
+    "area": 14259,
+    "confidence": 0.43120887875556946,
+    "image_path": "defect_8.jpg",
+    "video_path": "test3.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "217,295,379,418",
+    "area": 19926,
+    "confidence": 0.32627037167549133,
+    "image_path": "defect_8.jpg",
+    "video_path": "test3.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "212,294,380,429",
+    "area": 22680,
+    "confidence": 0.3114807605743408,
+    "image_path": "defect_8.jpg",
+    "video_path": "test3.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "211,296,378,425",
+    "area": 21543,
+    "confidence": 0.3782925307750702,
+    "image_path": "defect_8.jpg",
+    "video_path": "test3.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "207,294,376,427",
+    "area": 22477,
+    "confidence": 0.3805931508541107,
+    "image_path": "defect_8.jpg",
+    "video_path": "test3.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "207,296,369,427",
+    "area": 21222,
+    "confidence": 0.4746822714805603,
+    "image_path": "defect_8.jpg",
+    "video_path": "test3.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "205,299,364,429",
+    "area": 20670,
+    "confidence": 0.41523006558418274,
+    "image_path": "defect_8.jpg",
+    "video_path": "test3.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "203,301,361,429",
+    "area": 20224,
+    "confidence": 0.3217583894729614,
+    "image_path": "defect_8.jpg",
+    "video_path": "test3.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "198,304,359,426",
+    "area": 19642,
+    "confidence": 0.2905164062976837,
+    "image_path": "defect_8.jpg",
+    "video_path": "test3.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "199,305,359,421",
+    "area": 18560,
+    "confidence": 0.39225637912750244,
+    "image_path": "defect_8.jpg",
+    "video_path": "test3.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "199,307,357,418",
+    "area": 17538,
+    "confidence": 0.4519636332988739,
+    "image_path": "defect_8.jpg",
+    "video_path": "test3.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "184,307,351,424",
+    "area": 19539,
+    "confidence": 0.47259607911109924,
+    "image_path": "defect_8.jpg",
+    "video_path": "test3.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "188,307,348,422",
+    "area": 18400,
+    "confidence": 0.5828816890716553,
+    "image_path": "defect_8.jpg",
+    "video_path": "test3.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "187,308,349,425",
+    "area": 18954,
+    "confidence": 0.47296983003616333,
+    "image_path": "defect_8.jpg",
+    "video_path": "test3.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "183,311,348,427",
+    "area": 19140,
+    "confidence": 0.3298633396625519,
+    "image_path": "defect_8.jpg",
+    "video_path": "test3.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "182,313,346,428",
+    "area": 18860,
+    "confidence": 0.4296031594276428,
+    "image_path": "defect_8.jpg",
+    "video_path": "test3.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "181,314,341,429",
+    "area": 18400,
+    "confidence": 0.4400884211063385,
+    "image_path": "defect_8.jpg",
+    "video_path": "test3.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "178,315,338,430",
+    "area": 18400,
+    "confidence": 0.43437111377716064,
+    "image_path": "defect_8.jpg",
+    "video_path": "test3.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "179,316,338,431",
+    "area": 18285,
+    "confidence": 0.44945141673088074,
+    "image_path": "defect_8.jpg",
+    "video_path": "test3.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "176,324,339,430",
+    "area": 17278,
+    "confidence": 0.3635445237159729,
+    "image_path": "defect_8.jpg",
+    "video_path": "test3.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "173,324,334,430",
+    "area": 17066,
+    "confidence": 0.3168795704841614,
+    "image_path": "defect_8.jpg",
+    "video_path": "test3.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "169,324,331,431",
+    "area": 17334,
+    "confidence": 0.6045626401901245,
+    "image_path": "defect_8.jpg",
+    "video_path": "test3.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "162,326,328,431",
+    "area": 17430,
+    "confidence": 0.42389196157455444,
+    "image_path": "defect_8.jpg",
+    "video_path": "test3.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "161,329,326,431",
+    "area": 16830,
+    "confidence": 0.3687618672847748,
+    "image_path": "defect_8.jpg",
+    "video_path": "test3.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "154,330,322,431",
+    "area": 16968,
+    "confidence": 0.496028870344162,
+    "image_path": "defect_8.jpg",
+    "video_path": "test3.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "146,334,321,432",
+    "area": 17150,
+    "confidence": 0.3037049472332001,
+    "image_path": "defect_8.jpg",
+    "video_path": "test3.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "145,334,318,432",
+    "area": 16954,
+    "confidence": 0.36530932784080505,
+    "image_path": "defect_8.jpg",
+    "video_path": "test3.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "140,338,314,432",
+    "area": 16356,
+    "confidence": 0.323916494846344,
+    "image_path": "defect_8.jpg",
+    "video_path": "test3.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "137,342,311,432",
+    "area": 15660,
+    "confidence": 0.2900620400905609,
+    "image_path": "defect_8.jpg",
+    "video_path": "test3.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "127,342,311,432",
+    "area": 16560,
+    "confidence": 0.19969405233860016,
+    "image_path": "defect_8.jpg",
+    "video_path": "test3.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "128,345,306,432",
+    "area": 15486,
+    "confidence": 0.29117414355278015,
+    "image_path": "defect_8.jpg",
+    "video_path": "test3.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "120,345,305,432",
+    "area": 16095,
+    "confidence": 0.2862420082092285,
+    "image_path": "defect_8.jpg",
+    "video_path": "test3.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "117,344,303,432",
+    "area": 16368,
+    "confidence": 0.1969985067844391,
+    "image_path": "defect_8.jpg",
+    "video_path": "test3.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "119,345,300,432",
+    "area": 15747,
+    "confidence": 0.298083633184433,
+    "image_path": "defect_8.jpg",
+    "video_path": "test3.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "125,349,298,432",
+    "area": 14359,
+    "confidence": 0.17060500383377075,
+    "image_path": "defect_8.jpg",
+    "video_path": "test3.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "111,347,296,432",
+    "area": 15725,
+    "confidence": 0.13838230073451996,
+    "image_path": "defect_8.jpg",
+    "video_path": "test3.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "0,81,454,425",
+    "area": 156176,
+    "confidence": 0.38438156247138977,
+    "image_path": "defect_15.jpg",
+    "video_path": "test3.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "0,79,457,424",
+    "area": 157665,
+    "confidence": 0.25866398215293884,
+    "image_path": "defect_15.jpg",
+    "video_path": "test3.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "0,76,456,423",
+    "area": 158232,
+    "confidence": 0.1975223571062088,
+    "image_path": "defect_15.jpg",
+    "video_path": "test3.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "0,75,455,424",
+    "area": 158795,
+    "confidence": 0.1411922425031662,
+    "image_path": "defect_15.jpg",
+    "video_path": "test3.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "0,74,455,423",
+    "area": 158795,
+    "confidence": 0.14158882200717926,
+    "image_path": "defect_15.jpg",
+    "video_path": "test3.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "0,76,454,423",
+    "area": 157538,
+    "confidence": 0.2176172286272049,
+    "image_path": "defect_15.jpg",
+    "video_path": "test3.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "0,74,451,422",
+    "area": 156948,
+    "confidence": 0.1081736832857132,
+    "image_path": "defect_15.jpg",
+    "video_path": "test3.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "0,76,449,422",
+    "area": 155354,
+    "confidence": 0.1632855087518692,
+    "image_path": "defect_15.jpg",
+    "video_path": "test3.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "0,75,446,421",
+    "area": 154316,
+    "confidence": 0.1346965879201889,
+    "image_path": "defect_15.jpg",
+    "video_path": "test3.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "0,75,450,421",
+    "area": 155700,
+    "confidence": 0.182575061917305,
+    "image_path": "defect_15.jpg",
+    "video_path": "test3.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "0,75,449,421",
+    "area": 155354,
+    "confidence": 0.18361498415470123,
+    "image_path": "defect_15.jpg",
+    "video_path": "test3.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "0,76,449,421",
+    "area": 154905,
+    "confidence": 0.14397187530994415,
+    "image_path": "defect_15.jpg",
+    "video_path": "test3.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "0,73,440,422",
+    "area": 153560,
+    "confidence": 0.22582951188087463,
+    "image_path": "defect_15.jpg",
+    "video_path": "test3.mp4"
+  }
+]

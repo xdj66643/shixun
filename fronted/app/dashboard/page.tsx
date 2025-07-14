@@ -30,6 +30,7 @@ interface DashboardStats {
   totalDefects: number
   totalHotzones: number
   totalTrajectories: number
+  processedDefects: number
 }
 
 export default function DashboardPage() {
@@ -38,20 +39,23 @@ export default function DashboardPage() {
     totalDefects: 0,
     totalHotzones: 0,
     totalTrajectories: 0,
+    processedDefects: 0,
   })
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    // 模拟API调用
-    setTimeout(() => {
-      setStats({
-        totalVideos: 156,
-        totalDefects: 23,
-        totalHotzones: 8,
-        totalTrajectories: 1247,
+    fetch('http://localhost:8080/api/detection/dashboard/stats')
+      .then(res => res.json())
+      .then(res => {
+        // 兼容后端返回 { data: {...} } 或直接返回 {...}
+        if (res.data) {
+          setStats(res.data)
+        } else {
+          setStats(res)
+        }
+        setLoading(false)
       })
-      setLoading(false)
-    }, 800)
+      .catch(() => setLoading(false))
   }, [])
 
   const statsCards = [
@@ -89,10 +93,10 @@ export default function DashboardPage() {
       trendUp: true,
     },
     {
-      title: "车辆轨迹",
-      value: stats.totalTrajectories,
-      description: "追踪轨迹数量",
-      icon: TrendingUp,
+      title: "已处理病害",
+      value: stats.processedDefects,
+      description: "已处理的病害总数",
+      icon: CheckCircle,
       color: "text-green-600",
       bgColor: "bg-green-50",
       borderColor: "border-green-200",
@@ -117,18 +121,18 @@ export default function DashboardPage() {
       iconBg: "bg-green-500",
     },
     {
-      title: "交通热点分析",
-      description: "实时监控城市交通热点区域状况",
-      icon: MapPin,
-      href: "/traffic/hotzones",
-      iconBg: "bg-orange-500",
+      title: "交通与可视化分析",
+      description: "查看交通热点与数据可视化大屏",
+      icon: BarChart3,
+      href: "/dashboard.html",
+      iconBg: "bg-purple-500",
     },
     {
-      title: "数据可视化",
-      description: "查看交通统计图表和轨迹分析",
-      icon: BarChart3,
-      href: "/traffic/visualization",
-      iconBg: "bg-purple-500",
+      title: "病害处理",
+      description: "进入病害处理页面",
+      icon: Shield,
+      href: "/detection/process",
+      iconBg: "bg-red-500",
     },
   ]
 
@@ -232,7 +236,7 @@ export default function DashboardPage() {
               <div className="flex items-center justify-between">
                 <div className="space-y-1">
                   <p className="text-xs font-medium text-slate-600 uppercase tracking-wide">{card.title}</p>
-                  <p className="text-2xl font-bold text-slate-900">{card.value.toLocaleString()}</p>
+                  <p className="text-2xl font-bold text-slate-900">{(card.value ?? 0).toLocaleString()}</p>
                   <div className="flex items-center space-x-2">
                     <span className={cn("text-xs font-medium px-2 py-0.5 rounded-full", card.trendUp ? "bg-green-100 text-green-700" : "bg-red-100 text-red-700")}>{card.trend}</span>
                     <span className="text-xs text-slate-500">{card.description}</span>

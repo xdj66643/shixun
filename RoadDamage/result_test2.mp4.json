@@ -1,0 +1,2394 @@
+[
+  {
+    "defect_type": "坑洼",
+    "position": "349,109,536,205",
+    "area": 17952,
+    "confidence": 0.26592132449150085,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "347,108,532,207",
+    "area": 18315,
+    "confidence": 0.33804455399513245,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "346,110,522,202",
+    "area": 16192,
+    "confidence": 0.24156935513019562,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "336,109,502,206",
+    "area": 16102,
+    "confidence": 0.19215194880962372,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "344,110,493,198",
+    "area": 13112,
+    "confidence": 0.1607646942138672,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "346,114,490,191",
+    "area": 11088,
+    "confidence": 0.13895033299922943,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "345,114,480,190",
+    "area": 10260,
+    "confidence": 0.21739012002944946,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "283,113,489,238",
+    "area": 25750,
+    "confidence": 0.4596097469329834,
+    "image_path": "defect_5.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "337,113,503,204",
+    "area": 15106,
+    "confidence": 0.2359352707862854,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "283,113,504,234",
+    "area": 26741,
+    "confidence": 0.3895343542098999,
+    "image_path": "defect_5.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "281,111,494,235",
+    "area": 26412,
+    "confidence": 0.3580273985862732,
+    "image_path": "defect_5.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "279,109,486,234",
+    "area": 25875,
+    "confidence": 0.3594217002391815,
+    "image_path": "defect_5.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "280,109,486,231",
+    "area": 25132,
+    "confidence": 0.3092014193534851,
+    "image_path": "defect_5.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "280,109,484,226",
+    "area": 23868,
+    "confidence": 0.3086267411708832,
+    "image_path": "defect_5.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "332,111,488,205",
+    "area": 14664,
+    "confidence": 0.2881395220756531,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "280,109,488,223",
+    "area": 23712,
+    "confidence": 0.44624242186546326,
+    "image_path": "defect_5.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "332,112,484,203",
+    "area": 13832,
+    "confidence": 0.2511846721172333,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "278,110,485,223",
+    "area": 23391,
+    "confidence": 0.3878563940525055,
+    "image_path": "defect_5.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "321,110,486,207",
+    "area": 16005,
+    "confidence": 0.3445824086666107,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "278,112,478,221",
+    "area": 21800,
+    "confidence": 0.46968185901641846,
+    "image_path": "defect_5.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "318,112,478,208",
+    "area": 15360,
+    "confidence": 0.35104313492774963,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "285,111,479,219",
+    "area": 20952,
+    "confidence": 0.27148619294166565,
+    "image_path": "defect_5.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "322,112,479,205",
+    "area": 14601,
+    "confidence": 0.3874148726463318,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "276,109,479,226",
+    "area": 23751,
+    "confidence": 0.3512082099914551,
+    "image_path": "defect_5.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "318,111,479,205",
+    "area": 15134,
+    "confidence": 0.34064531326293945,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "272,109,483,227",
+    "area": 24898,
+    "confidence": 0.300615131855011,
+    "image_path": "defect_5.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "308,109,486,206",
+    "area": 17266,
+    "confidence": 0.26004430651664734,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "270,108,484,229",
+    "area": 25894,
+    "confidence": 0.2953745722770691,
+    "image_path": "defect_5.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "312,108,488,205",
+    "area": 17072,
+    "confidence": 0.3993350863456726,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "266,108,481,230",
+    "area": 26230,
+    "confidence": 0.252569317817688,
+    "image_path": "defect_5.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "317,109,485,205",
+    "area": 16128,
+    "confidence": 0.2777087092399597,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "267,110,484,228",
+    "area": 25606,
+    "confidence": 0.13673703372478485,
+    "image_path": "defect_5.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "319,111,483,201",
+    "area": 14760,
+    "confidence": 0.26396554708480835,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "264,109,490,227",
+    "area": 26668,
+    "confidence": 0.23480723798274994,
+    "image_path": "defect_5.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "318,109,490,202",
+    "area": 15996,
+    "confidence": 0.26130345463752747,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "261,110,483,227",
+    "area": 25974,
+    "confidence": 0.3642316460609436,
+    "image_path": "defect_5.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "301,110,481,205",
+    "area": 17100,
+    "confidence": 0.23760132491588593,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "259,110,476,227",
+    "area": 25389,
+    "confidence": 0.18260908126831055,
+    "image_path": "defect_5.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "310,111,474,203",
+    "area": 15088,
+    "confidence": 0.2145002782344818,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "268,110,473,226",
+    "area": 23780,
+    "confidence": 0.13683904707431793,
+    "image_path": "defect_5.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "312,111,468,201",
+    "area": 14040,
+    "confidence": 0.25128620862960815,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "260,110,474,226",
+    "area": 24824,
+    "confidence": 0.17742159962654114,
+    "image_path": "defect_5.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "304,111,472,201",
+    "area": 15120,
+    "confidence": 0.24235022068023682,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "254,110,468,235",
+    "area": 26750,
+    "confidence": 0.1473735272884369,
+    "image_path": "defect_5.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "305,112,465,203",
+    "area": 14560,
+    "confidence": 0.12280124425888062,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "254,110,467,233",
+    "area": 26199,
+    "confidence": 0.2639327049255371,
+    "image_path": "defect_5.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "305,111,462,204",
+    "area": 14601,
+    "confidence": 0.47403356432914734,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "254,109,476,231",
+    "area": 27084,
+    "confidence": 0.23473283648490906,
+    "image_path": "defect_5.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "301,110,473,205",
+    "area": 16340,
+    "confidence": 0.4873056411743164,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "189,78,243,105",
+    "area": 1458,
+    "confidence": 0.45646893978118896,
+    "image_path": "defect_18.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "258,109,469,225",
+    "area": 24476,
+    "confidence": 0.2224542647600174,
+    "image_path": "defect_5.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "299,112,464,204",
+    "area": 15180,
+    "confidence": 0.26575782895088196,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "187,78,241,105",
+    "area": 1458,
+    "confidence": 0.4009050726890564,
+    "image_path": "defect_18.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "249,110,464,228",
+    "area": 25370,
+    "confidence": 0.2646764814853668,
+    "image_path": "defect_5.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "295,112,459,202",
+    "area": 14760,
+    "confidence": 0.33705464005470276,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "186,78,239,105",
+    "area": 1431,
+    "confidence": 0.3317897915840149,
+    "image_path": "defect_18.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "260,109,462,223",
+    "area": 23028,
+    "confidence": 0.16380949318408966,
+    "image_path": "defect_5.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "297,112,456,200",
+    "area": 13992,
+    "confidence": 0.30837881565093994,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "184,78,237,105",
+    "area": 1431,
+    "confidence": 0.2629643678665161,
+    "image_path": "defect_18.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "250,110,454,226",
+    "area": 23664,
+    "confidence": 0.373611718416214,
+    "image_path": "defect_5.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "285,113,449,201",
+    "area": 14432,
+    "confidence": 0.26768428087234497,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "182,78,236,106",
+    "area": 1512,
+    "confidence": 0.226004958152771,
+    "image_path": "defect_18.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "246,110,455,229",
+    "area": 24871,
+    "confidence": 0.32673192024230957,
+    "image_path": "defect_5.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "271,111,455,202",
+    "area": 16744,
+    "confidence": 0.42996761202812195,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "181,79,234,105",
+    "area": 1378,
+    "confidence": 0.2951481342315674,
+    "image_path": "defect_18.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "244,109,459,222",
+    "area": 24295,
+    "confidence": 0.15403825044631958,
+    "image_path": "defect_5.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "284,110,459,200",
+    "area": 15750,
+    "confidence": 0.29926326870918274,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "180,79,233,105",
+    "area": 1378,
+    "confidence": 0.2905850410461426,
+    "image_path": "defect_18.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "241,109,466,221",
+    "area": 25200,
+    "confidence": 0.13556866347789764,
+    "image_path": "defect_5.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "283,110,464,202",
+    "area": 16652,
+    "confidence": 0.21478992700576782,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "179,79,231,105",
+    "area": 1352,
+    "confidence": 0.10587511211633682,
+    "image_path": "defect_18.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "244,109,456,222",
+    "area": 23956,
+    "confidence": 0.16085146367549896,
+    "image_path": "defect_5.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "289,110,454,201",
+    "area": 15015,
+    "confidence": 0.2678689658641815,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "177,79,229,105",
+    "area": 1352,
+    "confidence": 0.11185469478368759,
+    "image_path": "defect_18.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "240,109,455,232",
+    "area": 26445,
+    "confidence": 0.135488823056221,
+    "image_path": "defect_5.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "292,110,453,201",
+    "area": 14651,
+    "confidence": 0.27558186650276184,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "175,79,227,105",
+    "area": 1352,
+    "confidence": 0.1543993353843689,
+    "image_path": "defect_18.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "236,110,449,231",
+    "area": 25773,
+    "confidence": 0.1928718388080597,
+    "image_path": "defect_5.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "283,110,446,204",
+    "area": 15322,
+    "confidence": 0.15923474729061127,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "173,79,226,105",
+    "area": 1378,
+    "confidence": 0.16999506950378418,
+    "image_path": "defect_18.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "243,109,460,225",
+    "area": 25172,
+    "confidence": 0.18620085716247559,
+    "image_path": "defect_5.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "284,110,457,203",
+    "area": 16089,
+    "confidence": 0.299722284078598,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "172,79,224,105",
+    "area": 1352,
+    "confidence": 0.23850223422050476,
+    "image_path": "defect_18.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "236,109,456,229",
+    "area": 26400,
+    "confidence": 0.30878424644470215,
+    "image_path": "defect_5.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "284,110,452,202",
+    "area": 15456,
+    "confidence": 0.40710020065307617,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "171,79,223,105",
+    "area": 1352,
+    "confidence": 0.20050956308841705,
+    "image_path": "defect_18.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "232,109,449,228",
+    "area": 25823,
+    "confidence": 0.3010004758834839,
+    "image_path": "defect_5.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "267,111,448,203",
+    "area": 16652,
+    "confidence": 0.3516780734062195,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "169,79,222,105",
+    "area": 1378,
+    "confidence": 0.17653614282608032,
+    "image_path": "defect_18.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "228,109,444,229",
+    "area": 25920,
+    "confidence": 0.262871652841568,
+    "image_path": "defect_5.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "268,110,443,204",
+    "area": 16450,
+    "confidence": 0.3040018081665039,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "166,79,220,105",
+    "area": 1404,
+    "confidence": 0.11081940680742264,
+    "image_path": "defect_18.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "237,108,442,226",
+    "area": 24190,
+    "confidence": 0.2382398545742035,
+    "image_path": "defect_5.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "273,108,443,202",
+    "area": 15980,
+    "confidence": 0.396741658449173,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "234,108,444,234",
+    "area": 26460,
+    "confidence": 0.11188945174217224,
+    "image_path": "defect_5.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "231,108,436,231",
+    "area": 25215,
+    "confidence": 0.11528319865465164,
+    "image_path": "defect_5.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "227,107,446,229",
+    "area": 26718,
+    "confidence": 0.14312873780727386,
+    "image_path": "defect_5.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "274,106,456,202",
+    "area": 17472,
+    "confidence": 0.26721131801605225,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "224,107,445,222",
+    "area": 25415,
+    "confidence": 0.13661716878414154,
+    "image_path": "defect_5.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "268,107,449,199",
+    "area": 16652,
+    "confidence": 0.27824199199676514,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "268,107,445,198",
+    "area": 16107,
+    "confidence": 0.15212197601795197,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "271,107,443,198",
+    "area": 15652,
+    "confidence": 0.37359607219696045,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "268,107,442,199",
+    "area": 16008,
+    "confidence": 0.11911789327859879,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "261,107,445,201",
+    "area": 17296,
+    "confidence": 0.2111310064792633,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "296,267,521,354",
+    "area": 19575,
+    "confidence": 0.3160761594772339,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "255,107,438,202",
+    "area": 17385,
+    "confidence": 0.22212950885295868,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "295,267,513,354",
+    "area": 18966,
+    "confidence": 0.24707700312137604,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "251,107,442,204",
+    "area": 18527,
+    "confidence": 0.20365779101848602,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "291,266,510,354",
+    "area": 19272,
+    "confidence": 0.20586232841014862,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "524,67,767,413",
+    "area": 84078,
+    "confidence": 0.3241593539714813,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "239,107,434,204",
+    "area": 18915,
+    "confidence": 0.12059531360864639,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "289,266,502,361",
+    "area": 20235,
+    "confidence": 0.16559021174907684,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "524,69,767,418",
+    "area": 84807,
+    "confidence": 0.35701096057891846,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "247,106,446,203",
+    "area": 19303,
+    "confidence": 0.1738593727350235,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "291,267,502,361",
+    "area": 19834,
+    "confidence": 0.20263086259365082,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "527,74,767,415",
+    "area": 81840,
+    "confidence": 0.3077878952026367,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "249,107,436,201",
+    "area": 17578,
+    "confidence": 0.24473068118095398,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "287,267,502,358",
+    "area": 19565,
+    "confidence": 0.3103317320346832,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "528,70,767,417",
+    "area": 82933,
+    "confidence": 0.3200201392173767,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "246,107,428,200",
+    "area": 16926,
+    "confidence": 0.29389694333076477,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "286,268,498,358",
+    "area": 19080,
+    "confidence": 0.19357377290725708,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "532,67,767,392",
+    "area": 76375,
+    "confidence": 0.31004250049591064,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "239,106,426,202",
+    "area": 17952,
+    "confidence": 0.21388763189315796,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "284,267,495,362",
+    "area": 20045,
+    "confidence": 0.189379021525383,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "525,67,767,408",
+    "area": 82522,
+    "confidence": 0.3625048100948334,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "235,106,430,201",
+    "area": 18525,
+    "confidence": 0.12906290590763092,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "283,267,495,362",
+    "area": 20140,
+    "confidence": 0.20715530216693878,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "529,65,767,397",
+    "area": 79016,
+    "confidence": 0.37706151604652405,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "237,106,428,200",
+    "area": 17954,
+    "confidence": 0.2141931653022766,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "276,267,493,361",
+    "area": 20398,
+    "confidence": 0.24020923674106598,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "525,72,767,408",
+    "area": 81312,
+    "confidence": 0.35390257835388184,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "239,107,427,199",
+    "area": 17296,
+    "confidence": 0.12333979457616806,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "272,267,489,359",
+    "area": 19964,
+    "confidence": 0.22286608815193176,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "523,72,767,413",
+    "area": 83204,
+    "confidence": 0.3347790539264679,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "236,106,421,200",
+    "area": 17390,
+    "confidence": 0.12222874909639359,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "270,267,487,355",
+    "area": 19096,
+    "confidence": 0.1324707567691803,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "519,63,767,405",
+    "area": 84816,
+    "confidence": 0.3316443860530853,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "233,105,427,202",
+    "area": 18818,
+    "confidence": 0.18518684804439545,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "268,267,484,355",
+    "area": 19008,
+    "confidence": 0.16051940619945526,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "517,70,767,413",
+    "area": 85750,
+    "confidence": 0.35160985589027405,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "233,106,417,201",
+    "area": 17480,
+    "confidence": 0.10541363805532455,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "263,267,481,353",
+    "area": 18748,
+    "confidence": 0.18534334003925323,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "516,72,767,417",
+    "area": 86595,
+    "confidence": 0.3290660083293915,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "229,105,428,202",
+    "area": 19303,
+    "confidence": 0.12672799825668335,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "264,267,476,355",
+    "area": 18656,
+    "confidence": 0.2040165215730667,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "518,74,767,419",
+    "area": 85905,
+    "confidence": 0.31302589178085327,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "230,106,426,202",
+    "area": 18816,
+    "confidence": 0.3302476108074188,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "260,267,471,355",
+    "area": 18568,
+    "confidence": 0.16857509315013885,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "517,65,767,408",
+    "area": 85750,
+    "confidence": 0.34146347641944885,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "231,106,422,202",
+    "area": 18336,
+    "confidence": 0.3153213858604431,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "260,267,473,360",
+    "area": 19809,
+    "confidence": 0.19512861967086792,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "513,63,767,404",
+    "area": 86614,
+    "confidence": 0.41019120812416077,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "226,107,415,199",
+    "area": 17388,
+    "confidence": 0.3041639029979706,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "253,267,472,357",
+    "area": 19710,
+    "confidence": 0.24889250099658966,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "512,59,767,398",
+    "area": 86445,
+    "confidence": 0.40390366315841675,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "219,107,406,200",
+    "area": 17391,
+    "confidence": 0.20029844343662262,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "252,267,471,360",
+    "area": 20367,
+    "confidence": 0.27397391200065613,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "512,63,767,399",
+    "area": 85680,
+    "confidence": 0.35446253418922424,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "216,106,407,201",
+    "area": 18145,
+    "confidence": 0.22206144034862518,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "249,267,466,355",
+    "area": 19096,
+    "confidence": 0.2061532884836197,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "510,66,767,404",
+    "area": 86866,
+    "confidence": 0.38649848103523254,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "214,106,404,200",
+    "area": 17860,
+    "confidence": 0.17502766847610474,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "246,267,464,357",
+    "area": 19620,
+    "confidence": 0.15420371294021606,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "504,70,767,399",
+    "area": 86527,
+    "confidence": 0.3831413686275482,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "214,106,400,199",
+    "area": 17298,
+    "confidence": 0.2530365586280823,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "245,267,462,355",
+    "area": 19096,
+    "confidence": 0.1787324994802475,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "503,65,767,398",
+    "area": 87912,
+    "confidence": 0.41805049777030945,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "212,106,402,200",
+    "area": 17860,
+    "confidence": 0.17685580253601074,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "245,268,464,353",
+    "area": 18615,
+    "confidence": 0.3043203353881836,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "502,73,767,360",
+    "area": 76055,
+    "confidence": 0.36737820506095886,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "211,106,394,203",
+    "area": 17751,
+    "confidence": 0.28876176476478577,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "240,268,462,352",
+    "area": 18648,
+    "confidence": 0.11283700168132782,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "495,71,767,375",
+    "area": 82688,
+    "confidence": 0.3866516947746277,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "209,106,402,202",
+    "area": 18528,
+    "confidence": 0.3147551715373993,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "234,268,456,356",
+    "area": 19536,
+    "confidence": 0.20893757045269012,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "491,64,766,403",
+    "area": 93225,
+    "confidence": 0.5164250135421753,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "211,107,399,203",
+    "area": 18048,
+    "confidence": 0.3811027407646179,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "233,269,458,355",
+    "area": 19350,
+    "confidence": 0.26912975311279297,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "494,61,767,406",
+    "area": 94185,
+    "confidence": 0.4645525813102722,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "197,107,386,203",
+    "area": 18144,
+    "confidence": 0.3560384511947632,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "229,269,448,351",
+    "area": 17958,
+    "confidence": 0.17312204837799072,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "481,59,767,399",
+    "area": 97240,
+    "confidence": 0.4622117877006531,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "191,107,387,204",
+    "area": 19012,
+    "confidence": 0.3308412730693817,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "229,268,452,350",
+    "area": 18286,
+    "confidence": 0.1647585779428482,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "476,57,767,394",
+    "area": 98067,
+    "confidence": 0.4549732208251953,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "194,107,380,203",
+    "area": 17856,
+    "confidence": 0.20132432878017426,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "228,268,447,346",
+    "area": 17082,
+    "confidence": 0.3203084170818329,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "473,59,767,391",
+    "area": 97608,
+    "confidence": 0.4727684557437897,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "190,107,380,204",
+    "area": 18430,
+    "confidence": 0.21599215269088745,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "226,269,448,346",
+    "area": 17094,
+    "confidence": 0.22818537056446075,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "472,58,767,379",
+    "area": 94695,
+    "confidence": 0.4879009425640106,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "190,106,379,204",
+    "area": 18522,
+    "confidence": 0.25219786167144775,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "221,269,445,345",
+    "area": 17024,
+    "confidence": 0.14976905286312103,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "467,56,767,353",
+    "area": 89100,
+    "confidence": 0.5100434422492981,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "187,106,377,204",
+    "area": 18620,
+    "confidence": 0.2815731465816498,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "219,269,443,345",
+    "area": 17024,
+    "confidence": 0.1523619145154953,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "462,57,767,374",
+    "area": 96685,
+    "confidence": 0.494303435087204,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "185,106,386,203",
+    "area": 19497,
+    "confidence": 0.163472980260849,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "214,269,439,342",
+    "area": 16425,
+    "confidence": 0.14847919344902039,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "461,59,767,350",
+    "area": 89046,
+    "confidence": 0.49293211102485657,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "185,107,373,201",
+    "area": 17672,
+    "confidence": 0.2103513926267624,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "214,269,427,327",
+    "area": 12354,
+    "confidence": 0.23594056069850922,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "466,71,767,339",
+    "area": 80668,
+    "confidence": 0.5082446932792664,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "181,108,364,200",
+    "area": 16836,
+    "confidence": 0.26901403069496155,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "213,270,418,320",
+    "area": 10250,
+    "confidence": 0.2005121409893036,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "462,81,767,338",
+    "area": 78385,
+    "confidence": 0.47556596994400024,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "183,109,362,200",
+    "area": 16289,
+    "confidence": 0.35265621542930603,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "206,269,420,320",
+    "area": 10914,
+    "confidence": 0.23334704339504242,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "460,88,767,336",
+    "area": 76136,
+    "confidence": 0.529384195804596,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "178,109,357,200",
+    "area": 16289,
+    "confidence": 0.36264768242836,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "205,269,420,319",
+    "area": 10750,
+    "confidence": 0.1728096902370453,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "462,86,767,335",
+    "area": 75945,
+    "confidence": 0.5152928829193115,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "176,108,361,202",
+    "area": 17390,
+    "confidence": 0.2770996689796448,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "201,269,417,319",
+    "area": 10800,
+    "confidence": 0.20721210539340973,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "460,86,767,347",
+    "area": 80127,
+    "confidence": 0.470420241355896,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "175,108,356,202",
+    "area": 17014,
+    "confidence": 0.38331136107444763,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "198,269,411,319",
+    "area": 10650,
+    "confidence": 0.15788701176643372,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "458,89,767,340",
+    "area": 77559,
+    "confidence": 0.5063372850418091,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "171,108,354,202",
+    "area": 17202,
+    "confidence": 0.27743926644325256,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "196,270,407,321",
+    "area": 10761,
+    "confidence": 0.18551957607269287,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "453,89,767,336",
+    "area": 77558,
+    "confidence": 0.5197699666023254,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "168,109,352,200",
+    "area": 16744,
+    "confidence": 0.22857457399368286,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "195,270,405,322",
+    "area": 10920,
+    "confidence": 0.10531057417392731,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "450,91,767,333",
+    "area": 76714,
+    "confidence": 0.46304476261138916,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "158,110,345,203",
+    "area": 17391,
+    "confidence": 0.2765202820301056,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "193,271,398,328",
+    "area": 11685,
+    "confidence": 0.12312819808721542,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "442,89,767,334",
+    "area": 79625,
+    "confidence": 0.4785284698009491,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "155,110,343,204",
+    "area": 17672,
+    "confidence": 0.12499338388442993,
+    "image_path": "defect_1.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "187,272,398,342",
+    "area": 14770,
+    "confidence": 0.2371462881565094,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "435,89,767,333",
+    "area": 81008,
+    "confidence": 0.5036454796791077,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "186,272,401,348",
+    "area": 16340,
+    "confidence": 0.23439961671829224,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "436,90,767,333",
+    "area": 80433,
+    "confidence": 0.5240563154220581,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "182,272,393,341",
+    "area": 14559,
+    "confidence": 0.10637421905994415,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "434,88,767,336",
+    "area": 82584,
+    "confidence": 0.49309980869293213,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "176,272,390,348",
+    "area": 16264,
+    "confidence": 0.16860158741474152,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "433,90,767,335",
+    "area": 81830,
+    "confidence": 0.5662702322006226,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "175,272,389,355",
+    "area": 17762,
+    "confidence": 0.19465754926204681,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "429,85,767,336",
+    "area": 84838,
+    "confidence": 0.5298805236816406,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "171,273,380,354",
+    "area": 16929,
+    "confidence": 0.14891858398914337,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "423,86,766,337",
+    "area": 86093,
+    "confidence": 0.556107223033905,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "167,271,386,366",
+    "area": 20805,
+    "confidence": 0.17842888832092285,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "415,86,767,335",
+    "area": 87648,
+    "confidence": 0.5255401730537415,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "167,272,378,354",
+    "area": 17302,
+    "confidence": 0.15075479447841644,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "412,89,767,336",
+    "area": 87685,
+    "confidence": 0.5287463068962097,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "166,273,376,350",
+    "area": 16170,
+    "confidence": 0.17637436091899872,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "406,92,767,337",
+    "area": 88445,
+    "confidence": 0.4836156666278839,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "160,274,379,349",
+    "area": 16425,
+    "confidence": 0.10713690519332886,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "411,90,767,334",
+    "area": 86864,
+    "confidence": 0.5269173979759216,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "坑洼",
+    "position": "156,274,372,346",
+    "area": 15552,
+    "confidence": 0.13397938013076782,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "405,95,767,337",
+    "area": 87604,
+    "confidence": 0.5624722242355347,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "154,272,372,329",
+    "area": 12426,
+    "confidence": 0.11572763323783875,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "400,96,767,338",
+    "area": 88814,
+    "confidence": 0.5273747444152832,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "150,272,373,325",
+    "area": 11819,
+    "confidence": 0.11171060055494308,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "400,93,767,335",
+    "area": 88814,
+    "confidence": 0.519627571105957,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "横向裂缝",
+    "position": "146,272,373,323",
+    "area": 11577,
+    "confidence": 0.11967670172452927,
+    "image_path": "defect_24.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "399,91,767,336",
+    "area": 90160,
+    "confidence": 0.5868967771530151,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "394,87,767,337",
+    "area": 93250,
+    "confidence": 0.5640276670455933,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "393,88,767,338",
+    "area": 93500,
+    "confidence": 0.5869375467300415,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "396,86,766,337",
+    "area": 92870,
+    "confidence": 0.5832763910293579,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "391,88,765,336",
+    "area": 92752,
+    "confidence": 0.6002985239028931,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "383,84,764,336",
+    "area": 96012,
+    "confidence": 0.5892964601516724,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "382,83,763,336",
+    "area": 96393,
+    "confidence": 0.6133912205696106,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "377,90,764,339",
+    "area": 96363,
+    "confidence": 0.5504747629165649,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "371,85,763,339",
+    "area": 99568,
+    "confidence": 0.6056672930717468,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "367,86,764,338",
+    "area": 100044,
+    "confidence": 0.6297564506530762,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "367,90,765,341",
+    "area": 99898,
+    "confidence": 0.6147193908691406,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "364,88,764,339",
+    "area": 100400,
+    "confidence": 0.5817146897315979,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "359,84,764,339",
+    "area": 103275,
+    "confidence": 0.6130092144012451,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "362,86,765,342",
+    "area": 103168,
+    "confidence": 0.6155390739440918,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "364,87,764,339",
+    "area": 100800,
+    "confidence": 0.6228196024894714,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "360,88,765,343",
+    "area": 103275,
+    "confidence": 0.6092602610588074,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "350,83,765,346",
+    "area": 109145,
+    "confidence": 0.6025186777114868,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "344,79,766,347",
+    "area": 113096,
+    "confidence": 0.600636899471283,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "341,82,766,347",
+    "area": 112625,
+    "confidence": 0.5400369763374329,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "329,84,766,345",
+    "area": 114057,
+    "confidence": 0.530215322971344,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "332,82,767,345",
+    "area": 114405,
+    "confidence": 0.5362977385520935,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "332,81,767,343",
+    "area": 113970,
+    "confidence": 0.5780913829803467,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "325,83,767,343",
+    "area": 114920,
+    "confidence": 0.5252552628517151,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "324,84,767,344",
+    "area": 115180,
+    "confidence": 0.5512779355049133,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "322,86,767,347",
+    "area": 116145,
+    "confidence": 0.5349447131156921,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "320,86,768,348",
+    "area": 117376,
+    "confidence": 0.528419554233551,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "305,82,768,346",
+    "area": 122232,
+    "confidence": 0.5671802163124084,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "306,76,768,347",
+    "area": 125202,
+    "confidence": 0.5443152189254761,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "304,79,767,350",
+    "area": 125473,
+    "confidence": 0.5270731449127197,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "301,88,767,348",
+    "area": 121160,
+    "confidence": 0.5512708425521851,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "302,87,767,350",
+    "area": 122295,
+    "confidence": 0.5444181561470032,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "304,89,767,351",
+    "area": 121306,
+    "confidence": 0.5614243745803833,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "306,88,767,350",
+    "area": 120782,
+    "confidence": 0.5779556035995483,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "299,87,767,349",
+    "area": 122616,
+    "confidence": 0.5864975452423096,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "296,87,767,348",
+    "area": 122931,
+    "confidence": 0.5593361258506775,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "288,92,767,349",
+    "area": 123103,
+    "confidence": 0.5669554471969604,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "282,92,767,352",
+    "area": 126100,
+    "confidence": 0.5766476988792419,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "271,92,767,355",
+    "area": 130448,
+    "confidence": 0.5903444290161133,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "271,91,767,356",
+    "area": 131440,
+    "confidence": 0.5580306649208069,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "260,91,766,362",
+    "area": 137126,
+    "confidence": 0.550204873085022,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "261,95,767,362",
+    "area": 135102,
+    "confidence": 0.5753319263458252,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "254,93,767,371",
+    "area": 142614,
+    "confidence": 0.567518949508667,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "255,95,767,370",
+    "area": 140800,
+    "confidence": 0.5717031955718994,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  },
+  {
+    "defect_type": "龟裂",
+    "position": "256,101,767,366",
+    "area": 135415,
+    "confidence": 0.5414292216300964,
+    "image_path": "defect_25.jpg",
+    "video_path": "test2.mp4"
+  }
+]
